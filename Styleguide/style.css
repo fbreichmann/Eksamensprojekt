@@ -13,7 +13,8 @@ header{
 .logo{
     width: 20%;
     margin-top: 1.5%; 
-    margin-left: 1.5%; 
+    margin-left: 1.5%;
+    margin-bottom: 1.5%; 
     float: left; 
 }
 
@@ -60,12 +61,11 @@ nav a:hover{
 /*body*/
 
 .front-img{ 
-    float: left; 
-    height: 600px;  
-    background-image: url(img/bg-fornt.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; 
+    float: left;  
+    background-color: #005635; 
     width: 100%;
+    height: auto; 
+    padding-bottom: 20%; 
     opacity: 0.8; 
 }
 
