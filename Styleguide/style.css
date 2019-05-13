@@ -1,6 +1,6 @@
 *{
     margin: 0; 
-    padding: 0; 
+    padding: 0;
 }
 
 /*header*/
@@ -69,7 +69,7 @@ nav a:hover{
 }
 
 .active{
-    background-color: #005635; 
+    background-color: #1AA374; 
 }
 
 
