@@ -230,6 +230,15 @@ nav a:hover{
     box-shadow: 1px 1px 4px #3E3E3E; 
 }
 
+.farve11{
+    width: 100px; 
+    height: 100px; 
+    background-color:#c60000; 
+    float: left; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 4px #3E3E3E; 
+}
+
 .farve{
     width: 100px; 
     height: 100px; 
