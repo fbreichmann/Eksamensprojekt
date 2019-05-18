@@ -55,7 +55,7 @@ ul{
 
 li{
     display: inline-block;
-    width: 150px;
+    width: 230px;
     margin-right: -2px;
     border-style: ridge; 
     border-color: #147654; 
@@ -69,7 +69,7 @@ li a{
     text-decoration: none; 
     color: white; 
     display: block; 
-    padding: 21px;
+    padding: 20px;
     font-size: 12px;
     text-transform: uppercase; 
 }
