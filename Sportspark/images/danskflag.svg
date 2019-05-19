@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="24" viewBox="0 0 32 24">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 740 560">
+      <image width="740" height="560" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuQAAAIwAQMAAAD0xewfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABlBMVEXGDDD///9Xs3fUAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+IIFQ0DINh0HB0AAADbSURBVHja7dkxAQAgDMTA968WB2VjZGsHuAg4A0mu1SkN0el0Op1Op9PpdDqdTqfT6XQ6nU6n0+l0Op1Op9PpdDqdTqfT6XQ6nU6n0+l0Op1Op9PpdDqdTqfT6XQ6nU6n0+l0Op1Op9PpdDqd/qtejS06nU6n0+l0Op1Op9PpdDqdTqfT6XQ6nU5/SHee6XQ6nU6n0+l0Op1Op9PpdDqdTqfT6XQ6nU6n0+l0Op1Op9PpdDqdTqfT6XQ6nU6n0+l0Op1Op9PpdDqdTqfT6XQ6nU6n0+l0Op1OH9c3rqaeQqLxmpwAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDgtMjFUMTM6MDM6MzIrMDA6MDBiLUVtAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTA4LTIxVDEzOjAzOjMyKzAwOjAwE3D90QAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <rect id="danskflag" width="32" height="24" fill="url(#pattern)"/>
+</svg>

@@ -1,12 +1,14 @@
 *{
     margin: 0; 
-    padding: 0; 
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 body{
     font-family: 'Exo 2', sans-serif;
 }
 
+/*nav med logo*/
 .logo{
     background-color: white;
     height: 98px; 
@@ -19,6 +21,7 @@ body{
     float: left;  
 }
 
+/*search bar*/
 .search{
     float: right; 
     margin-top: 28px; 
@@ -32,15 +35,21 @@ body{
     border: solid 0.1px lightgray; 
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
     padding: 7px; 
+    outline: none; 
+    cursor: auto; 
 }
 
 .search button{
     font-size: 20px;
     border: none; 
     position: relative;
-    right: 80px; 
+    right: 80px;
+    outline: none;
+    cursor: pointer; 
 }
 
+
+/*Navigation*/
 nav{
     font-size: 0px; 
 }
@@ -81,5 +90,48 @@ li a:hover{
 .active{
     background-color: #005635; 
 }
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: #F7F7F7;
+    float: left; 
+    width: 100%; 
+}
+
+.adr{
+    width: 50%; 
+    float: left;
+    padding: 20px 0px 25px 70px; 
+}
+
+.f-blue{
+    color: #0D8CC4;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.f-black{
+    color: #3E3E3E; 
+    font-family: 'Lato', sans-serif;
+    font-size: 14px; 
+    font-weight: lighter; 
+}
+
+.link-blue{
+    color: #0D8CC4; 
+    font-family: 'Lato', sans-serif;
+    font-size: 14px; 
+    text-decoration: underline; 
+}
+
+.some{
+    width: 50%; 
+    float: right; 
+}
+
 
 
