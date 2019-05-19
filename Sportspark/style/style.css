@@ -8,6 +8,30 @@ body{
     font-family: 'Exo 2', sans-serif;
 }
 
+
+/*text style*/
+h1{
+    position: absolute; 
+    color: white; 
+    top: 280px; 
+    left: 68px;
+    text-transform: uppercase; 
+}
+
+h2{
+    position: absolute; 
+    color: white; 
+    font-size: 14px; 
+    text-transform: uppercase; 
+    padding: 8px 15px; 
+    border-radius: 10px; 
+    background-color: #000; 
+    top: 325px; 
+    left: 68px; 
+}
+
+
+
 /*nav med logo*/
 .logo{
     background-color: white;
@@ -91,6 +115,18 @@ li a:hover{
     background-color: #005635; 
 }
 
+/*header*/
+
+header{
+    height: 260px; 
+    overflow: hidden; 
+}
+
+header img{
+    width: 100%; 
+}
+
+
 
 
 
@@ -111,7 +147,7 @@ footer{
 .f-blue{
     color: #0D8CC4;
     font-size: 16px;
-    font-weight: bold; 
+    font-weight:bold; 
 }
 
 .f-black{
@@ -129,9 +165,17 @@ footer{
 }
 
 .some{
-    width: 50%; 
-    float: right; 
+    width: 280px; 
+    float: right;
+    padding: 34px 0px 34px 0px;
 }
 
+.ssl{
+    width: 150px; 
+}
+
+.some-icon{
+    width: 45px; 
+}
 
 
