@@ -287,7 +287,6 @@ li a:hover{
 /*Planlæg besøg side*/ 
 .dropdown-container{
     width: 50%; 
-    height: 50px;
     float: left; 
 }
 
@@ -295,6 +294,8 @@ li a:hover{
     float: left;
     margin-right: 18px;
 }
+
+
 
 .dropdown-input{
     border: solid;
@@ -320,16 +321,18 @@ li a:hover{
     padding-top: 2%; 
     border-radius: 0px 8px 8px 8px; 
     width: 200px; 
-    padding: 10%;
+    padding: 1%;
     display: none;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    position: absolute; 
 }
+
 
 .dropdown-content label{
     font-size: 13px; 
     color: #046143; 
     font-weight: bold;
-    text-align: left; 
+    text-align: left;
 }
 
 .dropdown-content input{
@@ -471,14 +474,17 @@ footer{
 .adr{
     width: 50%; 
     float: left;
-    padding: 2.5% 0% 2.5% 15%; 
+    padding: 1% 0% 1% 15%; 
 }
 
 .some{
-    width: 450px;  
+    width: 50%;   
     float: right;
-    padding: 3.4% 15% 3.4% 0%;
+    padding-left: 20%;
+    padding-top: 2%; 
+    padding-bottom: 2%; 
 }
+
 
 .ssl{
     width: 150px; 
