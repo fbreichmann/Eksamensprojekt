@@ -266,11 +266,11 @@ li a{
 }
 
 li a:hover{
-    background-color: #005635; 
+    background-color: #1aa374; 
 }
 
 .active{
-    background-color: #005635; 
+    background-color: #1aa374; 
 }
 
 /*header*/
@@ -397,10 +397,25 @@ li a:hover{
 }
 
 .reviews{
-    width: 33.3%;
+    width: 28.3%;
     float: left;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-bottom: 30px;
 }
 
+.reviewimg{
+    margin-top: 20px;
+    width: 10%;
+    float: right;
+}
+
+.containerbtn{
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
 
 /*footer*/
 footer{
