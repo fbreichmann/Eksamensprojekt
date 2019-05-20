@@ -7,6 +7,9 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="../js/script.js" defer></script>
 </head>
 
 
@@ -42,6 +45,23 @@
 </header>
    
 <main>
+   <div class="gray">
+   
+   <p class="green-s">Antal personer:</p>
+   <div class="dropdown-input" onclick="openDropdown()" ><p class="green-s">Vælg antal</p>
+   <div class="icon-down-white"><i class="fas fa-chevron-down"></i></div>
+   </div>    
+   
+   <div id="test" class="dropdown-content">
+    <label for="">Antal personer:</label>
+     <input type="number" min="0" max="42" placeholder="0">
+     <br>
+     <br>
+     <label for="">Antal hytter:</label>
+     <input type="number" min="0" max="42" placeholder="0">
+     </div>
+   </div>
+   <br>
     
 </main>
 
