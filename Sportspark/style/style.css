@@ -62,7 +62,7 @@ h4{
 }
 
 .green{
-    font-size: 18px; 
+    font-size: 20px; 
     color: #046143; 
     font-weight: bold;
 }
@@ -79,6 +79,7 @@ h4{
     color: #046143; 
     font-weight: bold;
 }
+
 
 .white-l{
     font-family: 'Exo 2', sans-serif;
@@ -417,7 +418,7 @@ nav li a:hover{
 
 .aktivitet-container{
     width: 100%; 
-    display: inline-block; 
+    display: inline-block;
 }
 
 .aktivitet-container img{
@@ -506,6 +507,44 @@ nav li a:hover{
     text-align: center; 
 }
 
+.prisoversigt{
+    background-color: white; 
+    padding: 3% 5% 4%;
+    overflow: auto;
+}
+
+#pris{
+    display: none; 
+}
+
+.prisoversigt h4{
+    margin: 0; 
+}
+
+.pris-txt{
+    width: 80%; 
+    float: left;
+    margin-top: 2%; 
+}
+
+.pris{
+    width: 20%; 
+    float: left; 
+    text-align: right;
+    margin-top: 2%; 
+}
+
+.samletpris{
+    margin: 0;
+    width: 80%; 
+    float: left; 
+}
+
+.samletpris-total{
+    width: 20%; 
+    float: left; 
+    text-align: right; 
+}
 
 
 
