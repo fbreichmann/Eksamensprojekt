@@ -17,7 +17,7 @@ h1{
     position: absolute; 
     color: white; 
     top: 270px; 
-    left: 68px;
+    left: 6%;
     text-transform: uppercase; 
 }
 
@@ -30,7 +30,7 @@ h2{
     border-radius: 10px; 
     background-color: #000; 
     top: 325px; 
-    left: 68px; 
+    left: 6%; 
 }
 
 h3{
@@ -295,7 +295,7 @@ footer{
 .some{
     width: 360px;  
     float: right;
-    padding: 3.4% 0% 3.4% 6%;
+    padding: 3.4% 6% 3.4% 0%;
 }
 
 .ssl{
