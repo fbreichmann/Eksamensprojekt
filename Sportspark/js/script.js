@@ -21,14 +21,7 @@ function openDropdown2() {
   }
 }
 
-function openDropdown3() {
-  var x = document.getElementById("drop3");
-    
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+
+
 
 

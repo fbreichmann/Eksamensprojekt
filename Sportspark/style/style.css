@@ -71,7 +71,13 @@ h4{
     font-size: 13px; 
     color: #046143; 
     font-weight: bold;
-    margin-bottom: 1%; 
+    margin-bottom: 3%; 
+}
+
+.green-xs{
+    font-size: 13px; 
+    color: #046143; 
+    font-weight: bold;
 }
 
 .white-l{
@@ -187,8 +193,6 @@ h4{
 }
 
 
-
-
 /*nav med logo*/
 .logo{
     background-color: white;
@@ -295,8 +299,6 @@ li a:hover{
     margin-right: 18px;
 }
 
-
-
 .dropdown-input{
     border: solid;
     border-width: 2px 35px 2px 2px; 
@@ -345,6 +347,10 @@ li a:hover{
     padding: 2px;  
 }
 
+.dropdown-content input::-webkit-inner-spin-button{
+    opacity: 1;
+}
+
 .dropdown-date{
     float: right; 
     margin-left: 5%; 
@@ -369,13 +375,92 @@ li a:hover{
     opacity: 1; 
 }
 
-.dropdown-date p{
-    margin: 0%; 
-}
 
 .dropdown-date-container{
     float: left; 
     width: 50%; 
+}
+
+.text-container{
+    width: 100%; 
+    padding-right: 50%;
+    padding-bottom: 2%; 
+}
+
+.label3-container{
+    width: 100%;
+}
+
+.label3-container input{
+    border-color: #046143;
+    border-style: solid; 
+    border-radius: 8px;
+    outline: none;
+    height: 25px;
+    border-width: 2px 22px 2px 2px;
+    width: 140px;
+    padding: 3%; 
+    color: #046143;
+    text-transform: uppercase; 
+    font-family: 'lato', sans-serif;
+    font-weight: bold; 
+}
+
+.label3-container input::-webkit-inner-spin-button{
+    opacity: 1;
+}
+
+.i-l{
+    float: left; 
+    margin-right: 2%;
+}
+
+.aktivitet-container{
+    width: 100%; 
+    display: inline-block; 
+}
+
+.aktivitet-container img{
+   border-radius: 16px; 
+    width: 100%; 
+}
+
+.img-wrapper{
+    width: 23.6%; 
+    float: left;
+    margin-right: 2%; 
+    margin-bottom: 2%
+}
+
+.img-wrapper-right{
+    width: 23%; 
+    float: left; 
+}
+
+.pakke-container{
+    width: 100%; 
+    display: inline-block;
+    margin-bottom: 2%; 
+}
+
+.pakke-container img{
+    border-radius: 16px 16px 0px 0px; 
+    width: 100%; 
+}
+
+.pakke-wrapper{
+    width: 32%; 
+    float: left;
+    margin-right: 2%; 
+}
+
+.pakke-wrapper-right{
+    width: 32%; 
+    float: left; 
+}
+
+.center-btn{
+    text-align: center; 
 }
 
 
