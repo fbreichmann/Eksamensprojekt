@@ -421,20 +421,30 @@ nav li a:hover{
 }
 
 .aktivitet-container img{
-   border-radius: 16px; 
+   border-radius: 16px 16px 0px 0px; 
     width: 100%; 
+}
+
+.aktivitet-txt-green{
+    background-color: #046143; 
+    padding: 5% 8%; 
+    text-align: center; 
+    border-radius: 0px 0px 16px 16px; 
+    margin-top: -2%; 
 }
 
 .img-wrapper{
     width: 23.6%; 
     float: left;
     margin-right: 2%; 
-    margin-bottom: 2%
+    margin-bottom: 2%; 
+    position: relative; 
 }
 
 .img-wrapper-right{
     width: 23%; 
     float: left; 
+    position: relative; 
 }
 
 .pakke-container{
