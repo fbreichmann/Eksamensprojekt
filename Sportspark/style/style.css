@@ -37,14 +37,15 @@ h3{
     font-size: 18px; 
     text-transform: uppercase; 
     font-weight: bold; 
-    margin-bottom:.8%;
+    margin-bottom: 1%;
     color: #046143; 
 }
 
 h4{
     font-size: 16px;
     color: #046143; 
-    font-weight: bold; 
+    font-weight: bold;
+    margin-bottom: 2%;
 }
 
 .regu-b{
@@ -163,12 +164,14 @@ h4{
 /*sektioner*/
 
 .gray{
+    float: left;
     background-color: #f7f7f7; 
     width: 100%; 
     padding: 2% 15%; 
 }
 
 .white{
+    float: left;
     background-color: white; 
     width: 100%; 
     padding: 2% 15%;  
@@ -273,6 +276,72 @@ li a:hover{
 }
 
 
+/*forside indhold*/
+.cardfrontpagecontainer{
+    float: left;
+    width: 50%;
+}
+
+.cardimg{
+    float: right;
+    width: 80%;
+}
+
+.cardfptxtcontainer{
+    margin-top: 6%;
+    float: left;
+    width: 40%;
+    padding-left: 3%;
+}
+
+.btncontainer{
+    margin-top: 5%;
+}
+
+.facilitetcontainer{
+    float: left;
+    width: 23%;
+    margin-right: 2.6%;
+}
+
+.facilitetcontainerright{
+    float: left;
+    width: 23%;   
+}
+
+.facilitetimg{
+    width: 98%;
+    margin: 0% 0% 3% 0%;
+    border-radius: 16px;
+}
+
+.facilitetimgright{
+    width: 98%;
+    margin: 0% 0% 3% 0%;
+    border-radius: 16px;
+}
+
+
+.descriptioncontainer{
+    float: left;
+    height: 11vh;
+    margin-bottom: 10%;
+    width: 95%;
+}
+
+.linje{
+    height: 2px;
+    width: 100%;
+    background-color: #DBDBDB;
+    float: left;
+}
+
+.reviews{
+    width: 33.3%;
+    float: left;
+}
+
+
 /*footer*/
 footer{
     background-color: #F7F7F7;
@@ -299,5 +368,6 @@ footer{
 .some-icon{
     width: 45px; 
 }
+
 
 
