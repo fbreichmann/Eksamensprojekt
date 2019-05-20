@@ -14,23 +14,22 @@ body{
 h1{
     font-family: 'Exo 2', sans-serif;
     font-size: 40px; 
-    position: absolute; 
     color: white; 
-    top: 270px; 
     left: 15%;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    padding-top: 120px; 
+    margin-left: 15%; 
 }
 
 h2{ 
-    position: absolute; 
     color: white; 
+    width: 415px;  
     font-size: 12px; 
     text-transform: uppercase; 
     padding: 8px 15px; 
     border-radius: 10px; 
-    background-color: #000; 
-    top: 325px; 
-    left: 15%; 
+    background-color: #000;
+    margin-left: 15%; 
 }
 
 h3{
@@ -265,18 +264,13 @@ li a:hover{
 }
 
 /*header*/
+/*opret en ny class på headeren og bruge samme indstilliner*/ 
+/*upload her efter det billed du skal bruge*/
 
-header{
-    height: 260px; 
-    overflow: hidden; 
+.pb-img{
+    background-image: url(../images/hav.jpg);
+    height: 260px;
 }
-
-header img{
-    width: 100%; 
-}
-
-
-
 
 
 /*footer*/
