@@ -38,7 +38,7 @@ h3{
     font-size: 18px; 
     text-transform: uppercase; 
     font-weight: bold; 
-    margin-bottom: 5px;
+    margin-bottom:.8%;
     color: #046143; 
 }
 
@@ -166,13 +166,13 @@ h4{
 .gray{
     background-color: #f7f7f7; 
     width: 100%; 
-    padding: 20px 70px; 
+    padding: 2% 6%; 
 }
 
 .white{
     background-color: white; 
     width: 100%; 
-    padding: 20px 70px; 
+    padding: 2% 6%;  
 }
 
 
@@ -187,7 +187,7 @@ h4{
 .logo img{
     width: 193px;
     margin-top: 24px; 
-    margin-left: 53px; 
+    margin-left: 6%; 
     float: left;  
 }
 
@@ -288,14 +288,13 @@ footer{
 .adr{
     width: 50%; 
     float: left;
-    padding: 20px 0px 25px 70px; 
+    padding: 2.5% 0% 2.5% 6%; 
 }
 
-
 .some{
-    width: 280px; 
+    width: 360px;  
     float: right;
-    padding: 34px 0px 34px 0px;
+    padding: 3.4% 0% 3.4% 6%;
 }
 
 .ssl{
