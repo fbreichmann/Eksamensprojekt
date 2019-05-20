@@ -151,6 +151,7 @@ h4{
     text-transform: uppercase; 
     outline: none;
     cursor: pointer; 
+    border: none; 
 }
 
 .btn-green-b:hover{
@@ -376,20 +377,32 @@ nav li a:hover{
     opacity: 1; 
 }
 
-
 .dropdown-date-container{
     float: left; 
     width: 50%; 
 }
 
 .text-container{
-    width: 100%; 
-    padding-right: 50%;
+    width: 50%; 
     padding-bottom: 2%; 
+    float: left; 
+}
+.kurv{
+    width: 50%; 
+    float: right;
+}
+.gray-mini{
+    background-color: #f7f7f7;
+    border-radius: 16px; 
+    width: 300px; 
+    padding: 6%; 
+    float: right; 
 }
 
 .label3-container{
-    width: 100%;
+    width: 50%;
+    float: left; 
+    padding-top: 5%; 
 }
 
 .label3-container input{
@@ -399,7 +412,7 @@ nav li a:hover{
     outline: none;
     height: 25px;
     border-width: 2px 22px 2px 2px;
-    width: 140px;
+    width: 120px;
     padding: 3%; 
     color: #046143;
     text-transform: uppercase; 
