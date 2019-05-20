@@ -197,6 +197,7 @@ h4{
     margin-top: 28px; 
 }
 
+
 .search input{
     height: 30px; 
     width: 220px; 
@@ -235,7 +236,7 @@ ul{
 
 li{
     display: inline-block;
-    width: 230px;
+    width: 150px;
     margin-right: -2px;
     border-style: ridge; 
     border-color: #147654; 
