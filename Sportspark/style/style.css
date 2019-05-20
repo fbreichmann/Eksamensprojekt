@@ -172,13 +172,15 @@ h4{
 .gray{
     background-color: #f7f7f7; 
     width: 100%; 
-    padding: 2% 15%; 
+    padding: 2% 15%;
+    overflow: auto; 
 }
 
 .white{
     background-color: white; 
     width: 100%; 
-    padding: 2% 15%;  
+    padding: 2% 15%;
+    overflow: auto; 
 }
 
 
@@ -280,6 +282,16 @@ li a:hover{
 }
 
 /*Planlæg besøg side*/ 
+.dropdown-container{
+    width: 50%; 
+    height: 50px;
+    float: left; 
+}
+
+.dropdown{
+    float: left;
+    margin-right: 18px;
+}
 
 .dropdown-input{
     border: solid;
@@ -287,7 +299,7 @@ li a:hover{
     background-color: white;
     border-radius: 8px;
     color: #046143; 
-    width: 200px;
+    width: 120px;
     outline: none; 
     cursor: pointer;
     padding: 2px 5px;
@@ -303,10 +315,11 @@ li a:hover{
 .dropdown-content{
     background-color: white; 
     padding-top: 2%; 
-    border-radius: 0px 0px 8px 8px; 
+    border-radius: 0px 8px 8px 8px; 
     width: 200px; 
-    padding: 2% 2% 2% 2%; 
-    
+    padding: 10%;
+    display: none;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-content label{
@@ -326,7 +339,38 @@ li a:hover{
     padding: 2px;  
 }
 
+.dropdown-date{
+    float: right; 
+    margin-left: 5%; 
+}
 
+.dropdown-date input{
+    border-color: #046143;
+    border-style: solid; 
+    border-radius: 8px;
+    outline: none;
+    width: 150px;
+    color: #046143;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    font-family: 'lato', sans-serif;
+}
+
+.dropdown-date input::-webkit-calendar-picker-indicator { 
+    background: #046143; 
+    color: white; 
+    padding: 7px 15px;  
+    opacity: 1; 
+}
+
+.dropdown-date p{
+    margin: 0%; 
+}
+
+.dropdown-date-container{
+    float: left; 
+    width: 50%; 
+}
 
 
 

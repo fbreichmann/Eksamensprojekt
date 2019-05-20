@@ -1,7 +1,7 @@
 
 //Javascript til dropdown
 function openDropdown() {
-  var x = document.getElementById("test");
+  var x = document.getElementById("drop");
     
   if (x.style.display === "block") {
     x.style.display = "none";
@@ -9,3 +9,26 @@ function openDropdown() {
     x.style.display = "block";
   }
 }
+
+
+function openDropdown2() {
+  var x = document.getElementById("drop2");
+    
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function openDropdown3() {
+  var x = document.getElementById("drop3");
+    
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+

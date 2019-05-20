@@ -45,22 +45,58 @@
 </header>
    
 <main>
+<!--sektion med input-->  
    <div class="gray">
    
+   <div class="dropdown-container">
+   <div class="dropdown">
    <p class="green-s">Antal personer:</p>
    <div class="dropdown-input" onclick="openDropdown()" ><p class="green-s">Vælg antal</p>
    <div class="icon-down-white"><i class="fas fa-chevron-down"></i></div>
    </div>    
    
-   <div id="test" class="dropdown-content">
-    <label for="">Antal personer:</label>
+   <div id="drop" class="dropdown-content">
+    <label for="">Antal voksne:</label>
      <input type="number" min="0" max="42" placeholder="0">
      <br>
      <br>
-     <label for="">Antal hytter:</label>
+     <label for="">Antal børn:</label>
      <input type="number" min="0" max="42" placeholder="0">
      </div>
-   </div>
+  </div>
+   
+   <div class="dropdown">
+   <p class="green-s">Antal hytter:</p>
+   <div class="dropdown-input" onclick="openDropdown2()" ><p class="green-s">Vælg antal</p>
+   <div class="icon-down-white"><i class="fas fa-chevron-down"></i></div>
+   </div>    
+   
+   <div id="drop2" class="dropdown-content">
+    <label for="">Luksus hytte(r):</label>
+     <input type="number" min="0" max="42" placeholder="0">
+     <br>
+     <br>
+     <label for="">Basis hytte(r):</label>
+     <input type="number" min="0" max="42" placeholder="0">
+     </div>
+    </div>
+    </div>
+    
+    <div class="dropdown-date-container">
+    <div class="dropdown-date">
+   <p class="green-s">Fra dato:</p>
+   <input type="date">
+    </div>
+    
+    <div class="dropdown-date">
+   <p class="green-s">Til dato:</p>
+   <input type="date">
+    </div>
+    </div>
+</div>
+   
+   
+   
    <br>
     
 </main>
