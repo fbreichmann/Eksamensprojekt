@@ -29,7 +29,7 @@ h2{
     padding: 8px 15px; 
     border-radius: 10px; 
     background-color: #000;
-    margin-left: 15%; 
+    margin-left: 15%;
 }
 
 h3{
@@ -241,7 +241,7 @@ nav{
     font-size: 0px;
 }
 
-ul{
+nav ul{
     list-style: none; 
     padding: 0; 
     margin: 0; 
@@ -249,7 +249,7 @@ ul{
     background-color: #046143; 
 }
 
-li{
+nav li{
     display: inline-block;
     width: 150px;
     margin-right: -2px;
@@ -261,7 +261,7 @@ li{
     border-right-width: 2px; 
 }
 
-li a{
+nav li a{
     text-decoration: none; 
     color: white; 
     display: block; 
@@ -271,7 +271,7 @@ li a{
     font-family: 'Exo 2', sans-serif;
 }
 
-li a:hover{
+nav li a:hover{
     background-color: #005635; 
 }
 
@@ -451,17 +451,52 @@ li a:hover{
 .pakke-wrapper{
     width: 32%; 
     float: left;
-    margin-right: 2%; 
+    margin-right: 2%;
+    position: relative; 
 }
 
 .pakke-wrapper-right{
     width: 32%; 
-    float: left; 
+    float: left;
+    position: relative; 
+}
+
+.pakke-pris{
+    background-color: #1AA374; 
+    position: absolute; 
+    top: 0; 
+    right: 0;    
+    padding: 10px 20px; 
+    border-radius: 0px 16px 0px 0px; 
+}
+
+.pakke-txt-gray{
+    background-color: #f7f7f7;
+    margin-top: -1%; 
+    padding: 8%;   
+}
+.pakke-txt-gray ul{
+    padding-left: 8%;
+    font-weight: bold;
+    line-height: 25px
+}
+
+.txt-gray-buttom{
+    margin-top: 7%; 
+}
+
+.pakke-txt-green{
+    background-color: #046143; 
+    padding: 3% 8%; 
+    text-align: center; 
+    border-radius: 0px 0px 16px 16px; 
 }
 
 .center-btn{
     text-align: center; 
 }
+
+
 
 
 
