@@ -290,6 +290,11 @@ nav li a:hover{
     height: 260px;
 }
 
+.pb-img-vaerdatvide{
+    background-image: url(../images/oksboel-by.jpg);
+    height: 260px;
+}
+
 /*Planlæg besøg side*/ 
 .dropdown-container{
     width: 50%; 
@@ -772,6 +777,13 @@ nav li a:hover{
     text-align: center;
 }
 
+
+/*VÆRD AT VIDE SIDE*/
+
+.txt-module-about{
+    column-count: 2;
+    line-height: 24px;
+}
 
 
 /*footer*/
