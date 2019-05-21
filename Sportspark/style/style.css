@@ -394,9 +394,14 @@ nav li a:hover{
 .gray-mini{
     background-color: #f7f7f7;
     border-radius: 16px; 
-    width: 300px; 
+    width: 72%; 
     padding: 6%; 
     float: right; 
+}
+
+.gray-mini ul{
+    list-style: none; 
+    line-height: 1.7
 }
 
 .label3-container{
