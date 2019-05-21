@@ -604,13 +604,13 @@ nav li a:hover{
 }
 
 .facilitetimg{
-    width: 98%;
+    width: 100%;
     margin: 0% 0% 3% 0%;
     border-radius: 16px;
 }
 
 .facilitetimgright{
-    width: 98%;
+    width: 100%;
     margin: 0% 0% 3% 0%;
     border-radius: 16px;
 }
@@ -618,10 +618,92 @@ nav li a:hover{
 
 .descriptioncontainer{
     float: left;
-    height: 11vh;
+    height: auto;
     margin-bottom: 10%;
     width: 95%;
 }
+
+/*facilitetets slider*/
+
+.mySlides {
+    display: none;
+}
+
+.btn-container{
+    width: 100%;
+    float: left;
+    height: auto;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.prev {
+  cursor: pointer;
+  float: left;
+  width: 10%;
+  padding: 10px 20px;
+  color: #046143;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+    background-color: transparent;
+}
+
+.next{
+   cursor: pointer;
+  float: right;
+  width: 10%;
+  padding: 10px 20px;
+  color: #046143;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+    background-color: transparent;
+    text-align: right;
+}
+
+.dot-container{
+    float: left;
+    text-align: center;
+    width: 80%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 15px 3px;
+    background-color: #046143;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #1aa374;
+}
+
+/* Fading animation på slider */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*reviews sektion*/
 
 .linje{
     height: 2px;
@@ -650,6 +732,8 @@ nav li a:hover{
     width: 100%;
     text-align: center;
 }
+
+
 
 /*footer*/
 footer{
