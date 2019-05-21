@@ -33,5 +33,7 @@ function openOversigt() {
 
 
 
-
-
+function selected(x) {
+  x.classList.toggle("fas fa-check");
+    
+}
