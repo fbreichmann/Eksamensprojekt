@@ -234,7 +234,8 @@ h4{
     position: relative;
     right: 30px;
     outline: none;
-    cursor: pointer; 
+    cursor: pointer;
+    top: 3px; 
 }
 
 
@@ -602,10 +603,6 @@ nav li a:hover{
     float: left; 
     text-align: right; 
 }
-
-
-
-
 
 
 
