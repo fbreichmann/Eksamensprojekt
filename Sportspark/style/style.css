@@ -458,13 +458,51 @@ nav li a:hover{
     margin-right: 2%; 
     margin-bottom: 2%; 
     position: relative; 
+    background-color:#046143; 
+    border-radius: 16px; 
+}
+
+.img-wrapper:hover img{
+    opacity: 0.3; 
+    transition: .5s ease; 
+}
+
+.img-wrapper:hover .knap{
+    opacity: 1;
+    transition: .5s ease; 
 }
 
 .img-wrapper-right{
     width: 23%; 
     float: left; 
-    position: relative; 
+    position: relative;
+    background-color:#046143; 
+    border-radius: 16px;
 }
+
+.img-wrapper-right:hover img{
+    opacity: 0.3; 
+    transition: .5s ease; 
+}
+
+.img-wrapper-right:hover .knap{
+    opacity: 1;
+    transition: .5s ease; 
+}
+
+.knap{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    color: white;
+    font-size: 50pt;
+    background-color: transparent; 
+    outline: none; 
+    border-style: none; 
+}
+
 
 .pakke-container{
     width: 100%; 
@@ -496,7 +534,8 @@ nav li a:hover{
     top: 0; 
     right: 0;    
     padding: 10px 20px; 
-    border-radius: 0px 16px 0px 0px; 
+    border-radius: 0px 16px 0px 0px;
+    z-index: 1; 
 }
 
 .pakke-txt-gray{
