@@ -57,11 +57,11 @@
    
    <div id="drop" class="dropdown-content">
     <label for="">Antal voksne:</label>
-     <input type="number" min="0" max="42" placeholder="0">
+     <input id="itm1" class="input" type="number" min="0" max="42" placeholder="0">
      <br>
      <br>
      <label for="">Antal børn:</label>
-     <input type="number" min="0" max="42" placeholder="0">
+     <input id="itm2" class="input" type="number" min="0" max="42" placeholder="0">
      </div>
   </div>
    
@@ -73,11 +73,11 @@
    
    <div id="drop2" class="dropdown-content">
     <label for="">Luksus hytte(r):</label>
-     <input type="number" min="0" max="3" placeholder="0">
+     <input id="itm3" class="input" type="number" min="0" max="3" placeholder="0">
      <br>
      <br>
      <label for="">Basis hytte(r):</label>
-     <input type="number" min="0" max="4" placeholder="0">
+     <input id="itm4" class="input" type="number" min="0" max="4" placeholder="0">
      </div>
     </div>
     </div>
@@ -105,19 +105,15 @@
          <div class="gray-mini">
              <p class="green-s">Vejledende pris</p>
              <div class="linje"></div>
-             <ul>
-                 <li><p class="regu-s">1 hytte til 4 personer (2 overnatninger)</p></li>
-                 <li><p class="regu-s">4 hytter til 8 personer (2 overnatninger)</p></li>
-                 <li><p class="regu-s">3 x morgenmad</p></li>
-                 <li><p class="regu-s">2 x frokost/madpakke</p></li>
-                 <li><p class="regu-s">2 x aftensmad</p></li>
-                 <li><p class="regu-s">Adgang til Badeland/Svømmehal</p></li>
-                 <li><p class="regu-s">Adgang til Springcenter</p></li>
-                 <li><p class="regu-s">Adgang til E-sport Center</p></li>
-                 <li><p class="regu-s">Adgang til Flexbane (Fodbold/Tennis)</p></li>
-                 <li><p class="green">Pr. barn..........................00DKK</p></li>
+                <ul>
+                    <li id="output1"></li>
+                    <li id="output2"></li>
+                    <li id="output3"></li>
+                    <li id="output4"></li>
+                    <li id="output5"></li>
+                    <li id="output6"></li>
+                    <li id="output7"></li>
              </ul>
-             <div class="dot"></div>
          </div>
      </div>
      
@@ -125,17 +121,17 @@
      
          <div class="i-l">
              <label for=""><p class="green-s">Morgenmad (antal dage)</p></label>
-             <input type="number" placeholder="0" min="0">
+             <input id="itm5" class="input" type="number" placeholder="0" min="0">
          </div>
      
          <div class="i-l">
              <label for=""><p class="green-s">Frokost (antal dage)</p></label>
-             <input type="number" placeholder="0" min="0">
+             <input id="itm6" class="input" type="number" placeholder="0" min="0">
          </div>
      
          <div class="i-l">
              <label for=""><p class="green-s">Aftensmad (antal dage)</p></label>
-             <input type="number" placeholder="0" min="0">
+             <input id="itm7" class="input" type="number" placeholder="0" min="0">
          </div>
      </div>
 </div>

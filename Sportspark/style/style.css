@@ -396,6 +396,7 @@ nav li a:hover{
 .kurv{
     width: 50%; 
     float: right;
+    margin-bottom: 5%; 
 }
 .gray-mini{
     background-color: #f7f7f7;

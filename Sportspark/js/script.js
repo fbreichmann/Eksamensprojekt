@@ -36,7 +36,7 @@ function openOversigt() {
 //Javascript til prisoversigt 
 
 //event listener. 
-var classname = document.getElementsByClassName("itm");
+var classname = document.getElementsByClassName("input");
 for (var i = 0; i < classname.length; i++) {
     classname[i].addEventListener('click', show);
 }
@@ -45,14 +45,29 @@ for (var i = 0; i < classname.length; i++) {
 let antal = [];
 antal[0] = "itm1"; 
 antal[1] = "itm2"; 
+antal[2] = "itm3"; 
+antal[3] = "itm4";
+antal[4] = "itm5";
+antal[5] = "itm6";
+antal[6] = "itm7";
 
 let tekst = [];
-tekst[0] = "børn samlet";
-tekst[1] = "voksne samlet";
+tekst[0] = "børn";
+tekst[1] = "voksne";
+tekst[2] = "luksus hytter";
+tekst[3] = "basis hytter";
+tekst[4] = "morgenmad";
+tekst[5] = "frokost";
+tekst[6] = "aftensmad";
 
 let output =[];
-output[0] = "txt1";
-output[1] = "txt2";
+output[0] = "output1";
+output[1] = "output2";
+output[2] = "output3";
+output[3] = "output4";
+output[4] = "output5";
+output[5] = "output6";
+output[6] = "output7";
 
 //funktion son får teksten til at vise sig
 function show(){
