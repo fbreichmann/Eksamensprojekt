@@ -301,6 +301,11 @@ nav li a:hover{
     height: 260px;
 }
 
+.pb-img-hytterne{
+    background-image: url(../images/panoramabillede.jpg);
+    height: 260px;
+}
+
 /*Planlæg besøg side*/ 
 .dropdown-container{
     width: 50%; 
@@ -980,7 +985,7 @@ input[type=submit-kontakt]:hover {
     margin-right: 10%;
 }
 
-/* Hytter*/
+/* HYTTER */
 
 .btn-hyt{
     float: right;
