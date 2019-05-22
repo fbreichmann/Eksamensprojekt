@@ -540,16 +540,22 @@ nav li a:hover{
 }
 
 .pakke-wrapper{
-    width: 32%; 
+    width: 31%; 
     float: left;
-    margin-right: 2%;
     position: relative;
+    margin: 1%; 
 }
 
-.pakke-wrapper-right{
-    width: 32%; 
-    float: left;
-    position: relative; 
+@media screen and (max-width: 1115px){
+    .pakke-wrapper{
+        width: 48%; 
+    }
+}
+
+@media screen and (max-width: 800px){
+    .pakke-wrapper{
+        width: 100%;
+    }
 }
 
 .pakke-pris{
@@ -565,8 +571,10 @@ nav li a:hover{
 .pakke-txt-gray{
     background-color: #f7f7f7;
     margin-top: -1%; 
-    padding: 8%;   
+    padding: 8%;
+    height: 270px;
 }
+
 .pakke-txt-gray ul{
     padding-left: 8%;
     font-weight: bold;
