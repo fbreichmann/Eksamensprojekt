@@ -1048,4 +1048,15 @@ input[type=submit-kontakt]:hover {
     background-color: transparent;
     text-align: right;
 }
+/* media queries */
+@media screen and (max-width: 600px) {
+    .map {
+        height: 30vh;
+        width: 100%;
+    }
+    svg {
+        width: 50%;
+        height: 50%;
+    }
+}
 
