@@ -677,7 +677,7 @@ nav li a:hover{
     cursor: pointer;
 }
 #sideBar {
-    height: 1000px;
+    height: 900px;
     width: 30%;
     background: white;
     position: absolute;
@@ -693,11 +693,11 @@ nav li a:hover{
 .box {
     height: auto;
     width: 100%;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 .infotext {
-    height: 500px;
+    height: 400px;
     width: 50%;
     background: #F7F7F7;
     margin-top: 20px;
@@ -706,11 +706,11 @@ nav li a:hover{
 .dage {
     display: inline-block;
     width: 100%;
-    margin-top: 25px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 .infotext2 {
-    height: 500px;
+    height: 400px;
     width: 50%;
     background: #F7F7F7;
     margin-top: 20px;
@@ -722,10 +722,13 @@ nav li a:hover{
     margin-top: 20px;
     margin-left: 10px;
 }
+.merebox {
+    margin-left: 165px;
+    margin-top: 485px;
+}
 .map {
     height: 135vh;
     width: 100%;
-    background:black;
     position: relative;
     margin-top: auto;
 }
