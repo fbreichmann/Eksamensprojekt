@@ -469,7 +469,11 @@ nav li a:hover{
     border-radius: 16px; 
 }
 
-.img-wrapper:hover img{
+.img-pb img{
+    width: 2%; 
+}
+
+.img-wrapper:hover .img-pb{
     opacity: 0.3; 
     transition: .5s ease; 
 }
@@ -487,7 +491,7 @@ nav li a:hover{
     border-radius: 16px;
 }
 
-.img-wrapper-right:hover img{
+.img-wrapper-right:hover .img-pb{
     opacity: 0.3; 
     transition: .5s ease; 
 }
@@ -503,8 +507,7 @@ nav li a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0; 
-    color: white;
-    font-size: 50pt;
+    width: 30%; 
     background-color: transparent; 
     outline: none; 
     border-style: none; 

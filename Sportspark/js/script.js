@@ -83,3 +83,10 @@ function show(){
     }    
 }
 
+
+//Javascript til billedskifte
+
+function changeImg(){
+    document.getElementById("plus-click").src='../images/check.svg'; 
+}
+   
