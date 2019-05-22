@@ -432,6 +432,7 @@ nav li a:hover{
     padding-top: 5%;
 }
 
+
 @media screen and (max-width: 1180px){
     .label3-container{
         width: 100%; 
@@ -468,11 +469,17 @@ nav li a:hover{
 }
 
 .i-l{
-    display: inline-block; 
+    display: block; 
+    float: left; 
     margin-right: 2%;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
 
+.i-l label{
+    font-size: 13px; 
+    color: #046143; 
+    font-weight: bold;
+}
 
 
 @media screen and (max-width: 800px){
