@@ -1,29 +1,8 @@
 
 //Javascript til dropdown
-function openDropdown() {
+function openDropdown(i) {
 
-var x = document.getElementById("drop");
-    
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-
-function openDropdown2() {
-  var x = document.getElementById("drop2");
-    
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-function openOversigt() {
-  var x = document.getElementById("pris");
+var x = document.getElementById(i);
     
   if (x.style.display === "block") {
     x.style.display = "none";
@@ -84,33 +63,26 @@ function show(){
 }
 
 
-//Javascript til billedskifte
-var imgskift = 'check'; 
+//Javascript til billedskifte og baggrunds farve skift
 
-function changeImg(){
-    var image = document.getElementById('click'); 
-    if (imgskift=='plus'){
-        image.src='../images/plus.svg'; 
-        imgskift='check'; 
-    }
-    else{
-        image.src='../images/check.svg'; 
-        imgskift='plus'; 
-    }
+var knap = document.getElementsByClassName("knap");
+var imgskift = new Array(knap.length);
+
+for ( var i = 0; i<knap.length;i++) {
+imgskift[i]='plus';     
 }
 
-var active = document.querySelector(".img-pb");
-
-active.addEventListener("click", function(e) {
-   this.classList.toggle("active-hover"); 
-});
-
-
-
-
-
-
-
-
-
+function changeImg(i,b,c){
+    var image = document.getElementById(i);
+    if (imgskift[b]=='plus'){
+        image.src='../images/check.svg';
+        document.getElementById(c).style.opacity=0.3;  
+        imgskift[b]='check'; 
+    }
+    else{
+        image.src='../images/plus.svg';
+        document.getElementById(c).style.opacity=1;
+        imgskift[b]='plus'; 
+    }
+}
    
