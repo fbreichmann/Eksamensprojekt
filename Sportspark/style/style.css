@@ -310,6 +310,7 @@ nav li a:hover{
 .dropdown{
     float: left;
     margin-right: 18px;
+    margin-top: 5%; 
 }
 
 .dropdown-input{
@@ -366,7 +367,8 @@ nav li a:hover{
 
 .dropdown-date{
     float: right; 
-    margin-left: 5%; 
+    margin-left: 5%;
+    margin: 3%;
 }
 
 .dropdown-date input{
@@ -390,25 +392,25 @@ nav li a:hover{
 
 .dropdown-date-container{
     float: left; 
-    width: 50%; 
+    width: 50%;
 }
 
 .text-container{
     width: 50%; 
     padding-bottom: 2%; 
-    float: left; 
+    float: left;
 }
+
 .kurv{
     width: 50%; 
-    float: right;
-    margin-bottom: 5%; 
+    float: left;
 }
 .gray-mini{
     background-color: #f7f7f7;
     border-radius: 16px; 
     width: 72%; 
     padding: 6%; 
-    float: right; 
+    margin-left: auto; 
 }
 
 .output-container{
@@ -419,9 +421,25 @@ nav li a:hover{
 }
 
 .label3-container{
-    width: 50%;
+    width: 100%;
     float: left; 
-    padding-top: 5%; 
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 1180px){
+    .label3-container{
+        width: 100%; 
+    }    
+}
+
+@media screen and (max-width: 800px){
+    .text-container{
+        width: 100%; 
+    } 
+    
+    .kurv{
+       display: none; 
+    }
 }
 
 .label3-container input{
@@ -444,14 +462,28 @@ nav li a:hover{
 }
 
 .i-l{
-    float: left; 
+    display: inline-block; 
     margin-right: 2%;
+    margin-top: 2%; 
+}
+
+
+
+@media screen and (max-width: 800px){
+    .i-l{
+        display: inline-block; 
+    }
+    
+    .i-l label{
+        padding: 0%; 
+    }
 }
 
 .aktivitet-container{
     width: 100%; 
     display: inline-block;
 }
+
 
 .aktivitet-container img{
    border-radius: 16px 16px 0px 0px; 
@@ -467,13 +499,26 @@ nav li a:hover{
 }
 
 .img-wrapper{
-    width: 23.6%; 
+    width: 23%; 
     float: left;
-    margin-right: 2%; 
+    margin-right: 1%;
+    margin-left: 1%; 
     margin-bottom: 2%; 
     position: relative; 
     background-color:#046143; 
     border-radius: 16px; 
+}
+
+@media screen and (max-width: 1115px){
+    .img-wrapper{
+        width: 48%; 
+    }
+}
+
+@media screen and (max-width: 400px){
+    .img-wrapper{
+        width: 100%; 
+    }
 }
 
 .img-pb img{
@@ -485,32 +530,12 @@ nav li a:hover{
     transition: .5s ease; 
 }
 
-
-
 .img-wrapper:hover .img-pb{
     opacity: 0.3; 
     transition: .5s ease; 
 }
 
 .img-wrapper:hover .knap{
-    opacity: 1;
-    transition: .5s ease; 
-}
-
-.img-wrapper-right{
-    width: 23%; 
-    float: left; 
-    position: relative;
-    background-color:#046143; 
-    border-radius: 16px;
-}
-
-.img-wrapper-right:hover .img-pb{
-    opacity: 0.3; 
-    transition: .5s ease; 
-}
-
-.img-wrapper-right:hover .knap{
     opacity: 1;
     transition: .5s ease; 
 }
@@ -526,7 +551,6 @@ nav li a:hover{
     outline: none; 
     border-style: none; 
 }
-
 
 .pakke-container{
     width: 100%; 
@@ -956,5 +980,72 @@ input[type=submit-kontakt]:hover {
     margin-right: 10%;
 }
 
+/* Hytter*/
 
+.btn-hyt{
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.hytcontainer{
+    float: left;
+    width: 50%;
+}
+
+.hytimg{
+    float: right;
+    width: 90%;
+    margin-right: 10%;
+    margin-bottom: 0;
+}
+
+.hyttxtcontainer{
+    margin-top: 6%;
+    float: left;
+    width: 50%;
+    padding-right: 3%;
+}
+
+.slider-area{
+    width: 90%;
+    background-color: #046143;
+    height: auto;
+    padding: 10px;
+    float: left;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.xofx{
+    margin: 15px;
+    color: white;
+}
+
+#btnPrevWhite{
+  cursor: pointer;
+  float: left;
+  width: 10%;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+    background-color: transparent;
+}
+
+#btnNextWhite{
+   cursor: pointer;
+  float: right;
+  width: 10%;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+    background-color: transparent;
+    text-align: right;
+}
 
