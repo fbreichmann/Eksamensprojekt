@@ -301,16 +301,21 @@ nav li a:hover{
     height: 260px;
 }
 
+.pb-img-hytterne{
+    background-image: url(../images/panoramabillede.jpg);
+    height: 260px;
+}
+
 /*Planlæg besøg side*/ 
 .dropdown-container{
     width: 50%; 
-    float: left; 
+    float: left;
 }
 
 .dropdown{
     float: left;
     margin-right: 18px;
-    margin-top: 5%; 
+    margin-top: 10px; 
 }
 
 .dropdown-input{
@@ -368,7 +373,8 @@ nav li a:hover{
 .dropdown-date{
     float: right; 
     margin-left: 5%;
-    margin: 3%;
+    margin-top: 8px; 
+    
 }
 
 .dropdown-date input{
@@ -426,6 +432,7 @@ nav li a:hover{
     padding-top: 5%;
 }
 
+
 @media screen and (max-width: 1180px){
     .label3-container{
         width: 100%; 
@@ -462,11 +469,17 @@ nav li a:hover{
 }
 
 .i-l{
-    display: inline-block; 
+    display: block; 
+    float: left; 
     margin-right: 2%;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
 
+.i-l label{
+    font-size: 13px; 
+    color: #046143; 
+    font-weight: bold;
+}
 
 
 @media screen and (max-width: 800px){
@@ -980,7 +993,7 @@ input[type=submit-kontakt]:hover {
     margin-right: 10%;
 }
 
-/* Hytter*/
+/* HYTTER */
 
 .btn-hyt{
     float: right;
@@ -1047,5 +1060,16 @@ input[type=submit-kontakt]:hover {
   user-select: none;
     background-color: transparent;
     text-align: right;
+}
+/* media queries */
+@media screen and (max-width: 600px) {
+    .map {
+        height: 30vh;
+        width: 100%;
+    }
+    svg {
+        width: 50%;
+        height: 50%;
+    }
 }
 
