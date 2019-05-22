@@ -411,9 +411,11 @@ nav li a:hover{
     float: right; 
 }
 
-.gray-mini ul{
-    list-style: none; 
-    line-height: 1.7
+.output-container{
+    padding-top: 2%; 
+}
+.output-container div{
+    margin-top: 3%; 
 }
 
 .label3-container{
@@ -478,6 +480,13 @@ nav li a:hover{
     width: 2%; 
 }
 
+.active-hover{
+    opacity: 0.3; 
+    transition: .5s ease; 
+}
+
+
+
 .img-wrapper:hover .img-pb{
     opacity: 0.3; 
     transition: .5s ease; 
@@ -511,7 +520,7 @@ nav li a:hover{
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0; 
+    opacity: 1; 
     width: 30%; 
     background-color: transparent; 
     outline: none; 
@@ -531,16 +540,22 @@ nav li a:hover{
 }
 
 .pakke-wrapper{
-    width: 32%; 
+    width: 31%; 
     float: left;
-    margin-right: 2%;
-    position: relative; 
+    position: relative;
+    margin: 1%; 
 }
 
-.pakke-wrapper-right{
-    width: 32%; 
-    float: left;
-    position: relative; 
+@media screen and (max-width: 1115px){
+    .pakke-wrapper{
+        width: 48%; 
+    }
+}
+
+@media screen and (max-width: 800px){
+    .pakke-wrapper{
+        width: 100%;
+    }
 }
 
 .pakke-pris{
@@ -556,8 +571,10 @@ nav li a:hover{
 .pakke-txt-gray{
     background-color: #f7f7f7;
     margin-top: -1%; 
-    padding: 8%;   
+    padding: 8%;
+    height: 270px;
 }
+
 .pakke-txt-gray ul{
     padding-left: 8%;
     font-weight: bold;
