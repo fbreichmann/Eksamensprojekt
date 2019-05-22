@@ -310,6 +310,7 @@ nav li a:hover{
 .dropdown{
     float: left;
     margin-right: 18px;
+    margin-top: 5%; 
 }
 
 .dropdown-input{
@@ -366,7 +367,8 @@ nav li a:hover{
 
 .dropdown-date{
     float: right; 
-    margin-left: 5%; 
+    margin-left: 5%;
+    margin: 3%;
 }
 
 .dropdown-date input{
@@ -390,25 +392,25 @@ nav li a:hover{
 
 .dropdown-date-container{
     float: left; 
-    width: 50%; 
+    width: 50%;
 }
 
 .text-container{
     width: 50%; 
     padding-bottom: 2%; 
-    float: left; 
+    float: left;
 }
+
 .kurv{
     width: 50%; 
-    float: right;
-    margin-bottom: 5%; 
+    float: left;
 }
 .gray-mini{
     background-color: #f7f7f7;
     border-radius: 16px; 
     width: 72%; 
     padding: 6%; 
-    float: right; 
+    margin-left: auto; 
 }
 
 .output-container{
@@ -419,9 +421,25 @@ nav li a:hover{
 }
 
 .label3-container{
-    width: 50%;
+    width: 100%;
     float: left; 
-    padding-top: 5%; 
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 1180px){
+    .label3-container{
+        width: 100%; 
+    }    
+}
+
+@media screen and (max-width: 800px){
+    .text-container{
+        width: 100%; 
+    } 
+    
+    .kurv{
+       display: none; 
+    }
 }
 
 .label3-container input{
@@ -444,8 +462,21 @@ nav li a:hover{
 }
 
 .i-l{
-    float: left; 
+    display: inline-block; 
     margin-right: 2%;
+    margin-top: 2%; 
+}
+
+
+
+@media screen and (max-width: 800px){
+    .i-l{
+        display: inline-block; 
+    }
+    
+    .i-l label{
+        padding: 0%; 
+    }
 }
 
 .aktivitet-container{
@@ -484,7 +515,7 @@ nav li a:hover{
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
     .img-wrapper{
         width: 100%; 
     }
