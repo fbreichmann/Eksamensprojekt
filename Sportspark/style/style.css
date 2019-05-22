@@ -837,6 +837,18 @@ svg {
     transition: background-color 0.6s ease;
 }
 
+
+.dot2 {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 15px 3px;
+    background-color: #046143;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
 .active, .dot:hover {
   background-color: #1aa374;
 }
