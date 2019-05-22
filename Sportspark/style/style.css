@@ -296,6 +296,11 @@ nav li a:hover{
     height: 260px;
 }
 
+.pb-img-kontakt{
+    background-image: url(../images/blomst3.jpg);
+    height: 260px;
+}
+
 /*Planlæg besøg side*/ 
 .dropdown-container{
     width: 50%; 
@@ -879,6 +884,46 @@ footer{
 
 .some-icon{
     width: 45px; 
+}
+
+/*KONTAKT SIDEN*/
+input[type=text-kontakt], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+    border-color: #046143;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    float: left;
+    font-family: 'Exo 2', sans-serif;
+}
+    
+input[type=submit-kontakt]:hover {
+  background-color: #1aa374;
+    float: left;
+}
+
+.containerkontakt{
+    float: left;
+    margin-top: 3px;
+}
+
+.text-container-kontakt{
+    width: 50%; 
+    padding-bottom: 2%; 
+    float: left; 
+    margin-top: -3%;
+
+}
+
+.text-kontaktcontainer{
+    width: 40%; 
+    padding-bottom: 2%; 
+    float: left; 
+    margin-right: 10%;
 }
 
 
