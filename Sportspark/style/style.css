@@ -682,7 +682,7 @@ nav li a:hover{
 .imgbox {
     height: 300px;
     width: 100%;
-    background-image: url(images/vandland.jpeg);
+    background-image: url(../images/vandland.jpeg);
     background-size: cover;
 }
 .box {
