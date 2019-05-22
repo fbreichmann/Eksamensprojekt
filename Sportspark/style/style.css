@@ -310,6 +310,7 @@ nav li a:hover{
 .dropdown{
     float: left;
     margin-right: 18px;
+    margin-top: 5%; 
 }
 
 .dropdown-input{
@@ -366,7 +367,8 @@ nav li a:hover{
 
 .dropdown-date{
     float: right; 
-    margin-left: 5%; 
+    margin-left: 5%;
+    margin: 3%;
 }
 
 .dropdown-date input{
@@ -390,25 +392,25 @@ nav li a:hover{
 
 .dropdown-date-container{
     float: left; 
-    width: 50%; 
+    width: 50%;
 }
 
 .text-container{
     width: 50%; 
     padding-bottom: 2%; 
-    float: left; 
+    float: left;
 }
+
 .kurv{
     width: 50%; 
-    float: right;
-    margin-bottom: 5%; 
+    float: left;
 }
 .gray-mini{
     background-color: #f7f7f7;
     border-radius: 16px; 
     width: 72%; 
     padding: 6%; 
-    float: right; 
+    margin-left: auto; 
 }
 
 .output-container{
@@ -419,9 +421,25 @@ nav li a:hover{
 }
 
 .label3-container{
-    width: 50%;
+    width: 100%;
     float: left; 
-    padding-top: 5%; 
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 1180px){
+    .label3-container{
+        width: 100%; 
+    }    
+}
+
+@media screen and (max-width: 800px){
+    .text-container{
+        width: 100%; 
+    } 
+    
+    .kurv{
+       display: none; 
+    }
 }
 
 .label3-container input{
@@ -444,14 +462,28 @@ nav li a:hover{
 }
 
 .i-l{
-    float: left; 
+    display: inline-block; 
     margin-right: 2%;
+    margin-top: 2%; 
+}
+
+
+
+@media screen and (max-width: 800px){
+    .i-l{
+        display: inline-block; 
+    }
+    
+    .i-l label{
+        padding: 0%; 
+    }
 }
 
 .aktivitet-container{
     width: 100%; 
     display: inline-block;
 }
+
 
 .aktivitet-container img{
    border-radius: 16px 16px 0px 0px; 
@@ -467,13 +499,26 @@ nav li a:hover{
 }
 
 .img-wrapper{
-    width: 23.6%; 
+    width: 23%; 
     float: left;
-    margin-right: 2%; 
+    margin-right: 1%;
+    margin-left: 1%; 
     margin-bottom: 2%; 
     position: relative; 
     background-color:#046143; 
     border-radius: 16px; 
+}
+
+@media screen and (max-width: 1115px){
+    .img-wrapper{
+        width: 48%; 
+    }
+}
+
+@media screen and (max-width: 400px){
+    .img-wrapper{
+        width: 100%; 
+    }
 }
 
 .img-pb img{
@@ -485,32 +530,12 @@ nav li a:hover{
     transition: .5s ease; 
 }
 
-
-
 .img-wrapper:hover .img-pb{
     opacity: 0.3; 
     transition: .5s ease; 
 }
 
 .img-wrapper:hover .knap{
-    opacity: 1;
-    transition: .5s ease; 
-}
-
-.img-wrapper-right{
-    width: 23%; 
-    float: left; 
-    position: relative;
-    background-color:#046143; 
-    border-radius: 16px;
-}
-
-.img-wrapper-right:hover .img-pb{
-    opacity: 0.3; 
-    transition: .5s ease; 
-}
-
-.img-wrapper-right:hover .knap{
     opacity: 1;
     transition: .5s ease; 
 }
@@ -527,7 +552,6 @@ nav li a:hover{
     border-style: none; 
 }
 
-
 .pakke-container{
     width: 100%; 
     display: inline-block;
@@ -540,16 +564,22 @@ nav li a:hover{
 }
 
 .pakke-wrapper{
-    width: 32%; 
+    width: 31%; 
     float: left;
-    margin-right: 2%;
     position: relative;
+    margin: 1%; 
 }
 
-.pakke-wrapper-right{
-    width: 32%; 
-    float: left;
-    position: relative; 
+@media screen and (max-width: 1115px){
+    .pakke-wrapper{
+        width: 48%; 
+    }
+}
+
+@media screen and (max-width: 800px){
+    .pakke-wrapper{
+        width: 100%;
+    }
 }
 
 .pakke-pris{
@@ -565,8 +595,10 @@ nav li a:hover{
 .pakke-txt-gray{
     background-color: #f7f7f7;
     margin-top: -1%; 
-    padding: 8%;   
+    padding: 8%;
+    height: 270px;
 }
+
 .pakke-txt-gray ul{
     padding-left: 8%;
     font-weight: bold;
@@ -715,7 +747,8 @@ nav li a:hover{
 .dage {
     display: inline-block;
     width: 100%;
-    margin-top: 30px;
+    height: 10%;
+    margin-top: 15px;
     margin-left: 15px;
 }
 .infotext2 {
@@ -728,12 +761,12 @@ nav li a:hover{
 .tider {
     display: inline-block;
     width: 100%;
-    margin-top: 20px;
-    margin-left: 10px;
+    height: 10%;
+    margin-top: 15px;
 }
 .merebox {
     margin-left: 165px;
-    margin-top: 485px;
+    margin-top: 475px;
 }
 .map {
     height: 135vh;

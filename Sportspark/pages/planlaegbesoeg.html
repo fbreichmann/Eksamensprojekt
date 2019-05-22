@@ -100,6 +100,23 @@
     <div class="text-container">
      <h3>Vælg måltider</h3> 
      <p class="regu-m">Herunder vælges hvor mange af dagene I ønsker at spise i Sportspark Blaavandshuks helt egen café - Café Aalholt. Cafeen tilbyder morgenmadsbuffet, frokost på stedet eller madpakker til ture, og aftenmåltider. Prisen pr. måltid er 00 DKK. </p>
+          <div class="label3-container">
+     
+         <div class="i-l">
+             <label for="itm5"><p class="green-s">Morgenmad (antal dage)</p></label>
+             <input id="itm5" class="input" type="number" placeholder="0" min="0">
+         </div>
+     
+         <div class="i-l">
+             <label for="itm6"><p class="green-s">Frokost (antal dage)</p></label>
+             <input id="itm6" class="input" type="number" placeholder="0" min="0">
+         </div>
+     
+         <div class="i-l">
+             <label for="itm7"><p class="green-s">Aftensmad (antal dage)</p></label>
+             <input id="itm7" class="input" type="number" placeholder="0" min="0">
+         </div>
+     </div>
      </div>
      <div class="kurv">
          <div class="gray-mini">
@@ -118,23 +135,7 @@
          </div>
      </div>
      
-     <div class="label3-container">
-     
-         <div class="i-l">
-             <label for=""><p class="green-s">Morgenmad (antal dage)</p></label>
-             <input id="itm5" class="input" type="number" placeholder="0" min="0">
-         </div>
-     
-         <div class="i-l">
-             <label for=""><p class="green-s">Frokost (antal dage)</p></label>
-             <input id="itm6" class="input" type="number" placeholder="0" min="0">
-         </div>
-     
-         <div class="i-l">
-             <label for=""><p class="green-s">Aftensmad (antal dage)</p></label>
-             <input id="itm7" class="input" type="number" placeholder="0" min="0">
-         </div>
-     </div>
+
 </div>
    
 <!--sektion med tekst og billeder-->
@@ -151,7 +152,14 @@
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
        <img class="img-pb" src="../images/sportshaller%20(1).jpg" alt="">
        <button class="knap"><img id="click" src="../images/plus.svg" alt=""></button>
-       <div class="aktivitet-txt-green"><p class="white-s">SVØMMEHAL &amp; BADELAND</p></div>
+       <div class="aktivitet-txt-green"><p class="white-s">SVØMMEHAL</p></div>
+       </div>
+           
+       <div class="img-wrapper" onclick="changeImg()">
+       <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
+       <img class="img-pb" src="../images/sportshaller%20(1).jpg" alt="">
+       <button class="knap"><img id="click" src="../images/plus.svg" alt=""></button>
+       <div class="aktivitet-txt-green"><p class="white-s">BADELAND</p></div>
        </div>
             
        <div class="img-wrapper">
@@ -168,7 +176,7 @@
        <div class="aktivitet-txt-green"><p class="white-s">SPRINGCENTER</p></div>
        </div>
        
-       <div class="img-wrapper-right">
+       <div class="img-wrapper">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
        <img class="img-pb" src="../images/sportshaller%20(1).jpg" alt="">
        <button class="knap"><img src="../images/plus.svg" alt=""></button>
@@ -207,7 +215,7 @@
        <div class="aktivitet-txt-green"><p class="white-s">BESØG PÅ TIRPITZ MUSEET</p></div>
        </div>
        
-       <div class="img-wrapper-right">
+       <div class="img-wrapper">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
        <img class="img-pb" src="../images/tirpitz.jpg" alt="">
        <button class="knap"><img src="../images/plus.svg" alt=""></button>
@@ -274,6 +282,7 @@
      
       <div class="pakke-container">
       <br>
+<!--pakke 1-->
           <div class="pakke-wrapper">
            <img src="../images/artillerimuseum.jpg" alt="">
                <div class="pakke-pris">
@@ -293,7 +302,8 @@
                </div>
                <div class="pakke-txt-green"><p class="white-s">KULTURPAKKEN</p></div>
            </div>
-       
+           
+<!--pakke 2-->
            <div class="pakke-wrapper">
            <img src="../images/artillerimuseum.jpg" alt="">
                <div class="pakke-pris">
@@ -316,7 +326,7 @@
            </div>
        
 <!--pakke 3-->
-           <div class="pakke-wrapper-right">
+           <div class="pakke-wrapper">
            <img src="../images/artillerimuseum.jpg" alt="">
                <div class="pakke-pris">
                    <p class="white-s">PR. BARN 00DKK</p>
