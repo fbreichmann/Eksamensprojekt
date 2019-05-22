@@ -301,16 +301,21 @@ nav li a:hover{
     height: 260px;
 }
 
+.pb-img-hytterne{
+    background-image: url(../images/panoramabillede.jpg);
+    height: 260px;
+}
+
 /*Planlæg besøg side*/ 
 .dropdown-container{
     width: 50%; 
-    float: left; 
+    float: left;
 }
 
 .dropdown{
     float: left;
     margin-right: 18px;
-    margin-top: 5%; 
+    margin-top: 10px; 
 }
 
 .dropdown-input{
@@ -368,7 +373,8 @@ nav li a:hover{
 .dropdown-date{
     float: right; 
     margin-left: 5%;
-    margin: 3%;
+    margin-top: 8px; 
+    
 }
 
 .dropdown-date input{
@@ -980,7 +986,7 @@ input[type=submit-kontakt]:hover {
     margin-right: 10%;
 }
 
-/* Hytter*/
+/* HYTTER */
 
 .btn-hyt{
     float: right;
