@@ -935,5 +935,72 @@ input[type=submit-kontakt]:hover {
     margin-right: 10%;
 }
 
+/* Hytter*/
 
+.btn-hyt{
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.hytcontainer{
+    float: left;
+    width: 50%;
+}
+
+.hytimg{
+    float: right;
+    width: 90%;
+    margin-right: 10%;
+    margin-bottom: 0;
+}
+
+.hyttxtcontainer{
+    margin-top: 6%;
+    float: left;
+    width: 50%;
+    padding-right: 3%;
+}
+
+.slider-area{
+    width: 90%;
+    background-color: #046143;
+    height: auto;
+    padding: 10px;
+    float: left;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.xofx{
+    margin: 15px;
+    color: white;
+}
+
+#btnPrevWhite{
+  cursor: pointer;
+  float: left;
+  width: 10%;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+    background-color: transparent;
+}
+
+#btnNextWhite{
+   cursor: pointer;
+  float: right;
+  width: 10%;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+    background-color: transparent;
+    text-align: right;
+}
 
