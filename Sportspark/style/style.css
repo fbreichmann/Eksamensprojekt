@@ -667,6 +667,67 @@ nav li a:hover{
     margin-bottom: 10%;
     width: 95%;
 }
+/* kort side */
+#Group_19:hover {
+    cursor: pointer;
+}
+#sideBar {
+    height: 1000px;
+    width: 30%;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.imgbox {
+    height: 300px;
+    width: 100%;
+    background-image: url(images/vandland.jpeg);
+    background-size: cover;
+}
+.box {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.infotext {
+    height: 500px;
+    width: 50%;
+    background: #F7F7F7;
+    margin-top: 20px;
+    float: left;
+}
+.dage {
+    display: inline-block;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.infotext2 {
+    height: 500px;
+    width: 50%;
+    background: #F7F7F7;
+    margin-top: 20px;
+    float: left;
+}
+.tider {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.map {
+    height: 135vh;
+    width: 100%;
+    background:black;
+    position: relative;
+    margin-top: auto;
+}
+svg {
+    width: 100%;
+    height: 100%;
+}
 
 /*facilitetets slider*/
 
