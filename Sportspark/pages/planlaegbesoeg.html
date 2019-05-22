@@ -105,15 +105,16 @@
          <div class="gray-mini">
              <p class="green-s">Vejledende pris</p>
              <div class="linje"></div>
-                <ul>
-                    <li id="output1"></li>
-                    <li id="output2"></li>
-                    <li id="output3"></li>
-                    <li id="output4"></li>
-                    <li id="output5"></li>
-                    <li id="output6"></li>
-                    <li id="output7"></li>
-             </ul>
+              <div class="output-container">
+               <div id="output1" class="regu-m"></div>
+               <div id="output2" class="regu-m"></div>
+               <div id="output3" class="regu-m"></div>
+               <div id="output4" class="regu-m"></div>
+               <div id="output5" class="regu-m"></div>
+               <div id="output6" class="regu-m"></div>
+               <div id="output7" class="regu-m"></div>
+               <div id="output"><p class="green">Vejledende pris 0000kr.</p></div>
+               </div>
          </div>
      </div>
      
@@ -146,10 +147,10 @@
        <h3>HOS SPORTSPARKEN</h3>
        <div class="aktivitet-container">
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg()">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
        <img class="img-pb" src="../images/sportshaller%20(1).jpg" alt="">
-       <button class="knap"><img id="plus-click" src="../images/plus.svg" alt="" onclick="changeImg()"></button>
+       <button class="knap"><img id="click" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">SVØMMEHAL &amp; BADELAND</p></div>
        </div>
             
@@ -194,7 +195,7 @@
        
        <div class="img-wrapper">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb"s src="../images/tirpitz.jpg" alt="">
+       <img class="img-pb" src="../images/tirpitz.jpg" alt="">
        <button class="knap"><img src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">BESØG PÅ TIRPITZ MUSEET</p></div>
        </div>

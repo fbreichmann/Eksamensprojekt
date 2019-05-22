@@ -38,7 +38,7 @@ function openOversigt() {
 //event listener. 
 var classname = document.getElementsByClassName("input");
 for (var i = 0; i < classname.length; i++) {
-    classname[i].addEventListener('click', show);
+    classname[i].addEventListener('change', show);
 }
 
 //variabler - arrays 
@@ -52,13 +52,13 @@ antal[5] = "itm6";
 antal[6] = "itm7";
 
 let tekst = [];
-tekst[0] = "børn";
-tekst[1] = "voksne";
-tekst[2] = "luksus hytter";
-tekst[3] = "basis hytter";
-tekst[4] = "morgenmad";
-tekst[5] = "frokost";
-tekst[6] = "aftensmad";
+tekst[0] = "x voksne";
+tekst[1] = "x børn";
+tekst[2] = "x luksus hytte(r)";
+tekst[3] = "x basis hytte(r)";
+tekst[4] = "x morgenmad";
+tekst[5] = "x frokost";
+tekst[6] = "x aftensmad";
 
 let output =[];
 output[0] = "output1";
@@ -85,8 +85,32 @@ function show(){
 
 
 //Javascript til billedskifte
+var imgskift = 'check'; 
 
 function changeImg(){
-    document.getElementById("plus-click").src='../images/check.svg'; 
+    var image = document.getElementById('click'); 
+    if (imgskift=='plus'){
+        image.src='../images/plus.svg'; 
+        imgskift='check'; 
+    }
+    else{
+        image.src='../images/check.svg'; 
+        imgskift='plus'; 
+    }
 }
+
+var active = document.querySelector(".img-pb");
+
+active.addEventListener("click", function(e) {
+   this.classList.toggle("active-hover"); 
+});
+
+
+
+
+
+
+
+
+
    
