@@ -296,6 +296,11 @@ nav li a:hover{
     height: 260px;
 }
 
+.pb-img-kontakt{
+    background-image: url(../images/blomst3.jpg);
+    height: 260px;
+}
+
 /*Planlæg besøg side*/ 
 .dropdown-container{
     width: 50%; 
@@ -681,7 +686,7 @@ nav li a:hover{
     cursor: pointer;
 }
 #sideBar {
-    height: 1000px;
+    height: 900px;
     width: 30%;
     background: white;
     position: absolute;
@@ -697,11 +702,11 @@ nav li a:hover{
 .box {
     height: auto;
     width: 100%;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 .infotext {
-    height: 500px;
+    height: 400px;
     width: 50%;
     background: #F7F7F7;
     margin-top: 20px;
@@ -710,11 +715,11 @@ nav li a:hover{
 .dage {
     display: inline-block;
     width: 100%;
-    margin-top: 25px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 .infotext2 {
-    height: 500px;
+    height: 400px;
     width: 50%;
     background: #F7F7F7;
     margin-top: 20px;
@@ -726,10 +731,13 @@ nav li a:hover{
     margin-top: 20px;
     margin-left: 10px;
 }
+.merebox {
+    margin-left: 165px;
+    margin-top: 485px;
+}
 .map {
     height: 135vh;
     width: 100%;
-    background:black;
     position: relative;
     margin-top: auto;
 }
@@ -885,6 +893,46 @@ footer{
 
 .some-icon{
     width: 45px; 
+}
+
+/*KONTAKT SIDEN*/
+input[type=text-kontakt], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+    border-color: #046143;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    float: left;
+    font-family: 'Exo 2', sans-serif;
+}
+    
+input[type=submit-kontakt]:hover {
+  background-color: #1aa374;
+    float: left;
+}
+
+.containerkontakt{
+    float: left;
+    margin-top: 3px;
+}
+
+.text-container-kontakt{
+    width: 50%; 
+    padding-bottom: 2%; 
+    float: left; 
+    margin-top: -3%;
+
+}
+
+.text-kontaktcontainer{
+    width: 40%; 
+    padding-bottom: 2%; 
+    float: left; 
+    margin-right: 10%;
 }
 
 
