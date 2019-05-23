@@ -304,7 +304,7 @@ nav li a:hover{
 }
 
 .current{
-    background-color: #1aa374; 
+    background-color: #005635;
 }
 
 /*header*/
@@ -1211,6 +1211,9 @@ input[type=submit-kontakt]:hover {
     }
     .containerkontakt {
         float: right;
+    }
+    .text-container-kontakt {
+        width: 100%;
     }
 }
 
