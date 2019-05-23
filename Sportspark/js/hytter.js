@@ -7,7 +7,7 @@ sliderlist[3] = "../images/basishytterne/basis4.jpg";
 let counter = 0;
 document.getElementById("sliderInfo").innerText = (counter + 1) + " af " + sliderlist.length;
 
-document.getElementsById ("bntNextWhite").addEventListener("click", function() {
+document.getElementsById ("bntNext").addEventListener("click", function() {
     counter++;
 
 if (counter >= sliderlist.length) {
@@ -18,7 +18,7 @@ if (counter >= sliderlist.length) {
     document.getElementById("sliderInfo").innerText = (counter + 1) + " af " + sliderlist.length;
 })
 
-document.getElementsById("btnPrevWhite").addEventListener("click", function(){
+document.getElementsById("btnPrev").addEventListener("click", function(){
     counter--;
     
     if (counter <0){
