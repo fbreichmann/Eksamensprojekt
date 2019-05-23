@@ -41,7 +41,6 @@ h3{
     color: #046143; 
 }
 .kontakt {
-    h3{
         font-family: 'Exo 2', sans-serif;
         font-size: 18px; 
         text-transform: uppercase; 
@@ -49,7 +48,7 @@ h3{
         margin-bottom: 1%;
         color: #046143; 
     }
-}
+
 
 h4{
     font-size: 16px;
@@ -198,14 +197,13 @@ h4{
     padding: 2% 15%;
     overflow: auto; 
 }
-.gray-forside{
+.gray-1{
     float: left;
     background-color: #f7f7f7; 
     width: 100%; 
     padding: 2% 15%;
     overflow: auto; 
 }
-
 .white{
     float: left;
     background-color: white; 
@@ -213,7 +211,13 @@ h4{
     padding: 2% 15%;
     overflow: auto; 
 }
-
+.white-1 {
+        float: left;
+        background-color: white; 
+        width: 100%; 
+        padding: 2% 15%;
+        overflow: auto; 
+}
 
 /*nav med logo*/
 .logo{
@@ -299,7 +303,7 @@ nav li a:hover{
 }
 
 .current{
-    background-color: #005635; 
+    background-color: #1aa374; 
 }
 
 /*header*/
@@ -976,7 +980,7 @@ footer{
 }
 
 /*KONTAKT SIDEN*/
-input[type=text-kontakt], select, textarea {
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 2px solid #ccc;
