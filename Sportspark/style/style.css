@@ -722,6 +722,8 @@ nav li a:hover{
 /* kort side */
 #Group_19:hover {
     cursor: pointer;
+    stroke: black;
+    stroke-width: 3px;
 }
 #sideBar {
     height: 900px;
@@ -1068,8 +1070,8 @@ input[type=submit-kontakt]:hover {
         width: 100%;
     }
     svg {
-        width: 50%;
-        height: 50%;
+        width: 50vw;
+        height: 50vh;
     }
 }
 
