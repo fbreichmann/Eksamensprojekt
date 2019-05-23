@@ -80,7 +80,6 @@ h4{
     font-weight: bold;
 }
 
-
 .white-l{
     font-family: 'Exo 2', sans-serif;
     color: white;
@@ -988,8 +987,7 @@ input[type=submit-kontakt]:hover {
     margin-right: 10%;
 }
 
-/* HYTTER */
-
+/* HYTTER SIDEN */
 .btn-hyt{
     float: right;
     width: 100%;
@@ -1025,11 +1023,6 @@ input[type=submit-kontakt]:hover {
     border-bottom-right-radius: 16px;
 }
 
-.xofx{
-    margin: 15px;
-    color: white;
-}
-
 .btnPrev{
   cursor: pointer;
   float: left;
@@ -1062,6 +1055,12 @@ input[type=submit-kontakt]:hover {
     text-align: center;
     width: 80%;
 }
+
+.hyt-txt{
+    text-align: center;
+    margin-left: 100px;
+}
+
 .mobileimg {
     display: none;
 }

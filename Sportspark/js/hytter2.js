@@ -1,14 +1,14 @@
 var slideIndex = 1;
-showSlides1(slideIndex);
+showSlides2(slideIndex);
 
 // Next/previous controls
-function plusSlides1(n) {
-  showSlides1(slideIndex += n);
+function plusSlides2(n) {
+  showSlides2(slideIndex += n);
 }
 
-function showSlides1(n) {
+function showSlides2(n) {
   var i;
-  var slides = document.getElementsByClassName("hytSlides1");
+  var slides = document.getElementsByClassName("hytSlides2");
   var dots = 
   document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption1");
