@@ -40,6 +40,16 @@ h3{
     margin-bottom: 1%;
     color: #046143; 
 }
+.kontakt {
+    h3{
+        font-family: 'Exo 2', sans-serif;
+        font-size: 18px; 
+        text-transform: uppercase; 
+        font-weight: bold; 
+        margin-bottom: 1%;
+        color: #046143; 
+    }
+}
 
 h4{
     font-size: 16px;
@@ -49,6 +59,10 @@ h4{
 }
 
 .regu-b{
+    font-size: 16px;
+    font-weight: bold; 
+}
+.regu-b1 {
     font-size: 16px;
     font-weight: bold; 
 }
@@ -178,6 +192,13 @@ h4{
 /*sektioner*/
 
 .gray{
+    float: left;
+    background-color: #f7f7f7; 
+    width: 100%; 
+    padding: 2% 15%;
+    overflow: auto; 
+}
+.gray-forside{
     float: left;
     background-color: #f7f7f7; 
     width: 100%; 
@@ -894,6 +915,13 @@ svg {
     margin-right: 5%;
     margin-bottom: 30px;
 }
+.reviews1{
+    width: 28.3%;
+    float: left;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-bottom: 30px;
+}
 
 .reviewimg{
     margin-top: 20px;
@@ -986,6 +1014,12 @@ input[type=submit-kontakt]:hover {
     float: left; 
     margin-right: 10%;
 }
+.text-kontaktcontainer1{
+    width: 40%; 
+    padding-bottom: 2%; 
+    float: left; 
+    margin-right: 10%;
+}
 
 /* HYTTER SIDEN */
 .btn-hyt{
@@ -1012,6 +1046,7 @@ input[type=submit-kontakt]:hover {
     width: 50%;
     padding-right: 3%;
 }
+
 
 .slider-area{
     width: 90%;
@@ -1105,6 +1140,65 @@ input[type=submit-kontakt]:hover {
     .link-blue {
         font-size: 12px;
     }
-    
+    h1 {
+        padding-top: 80px;
+    }
+    h2 {
+        font-size: 12px;
+        width: 200px;
+    }
+    h3 {
+        margin-top: 10px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .regu-b1 {
+        display: none;
+    }
+    .cardfptxtcontainer {
+        width: 100%;
+    }
+    .btncontainer {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+    .regu-m {
+        font-size: 10px;
+    }
+    .gray-forside {
+        display: none;
+    }
+    .reviews1 {
+        display: none;
+    }
+    .reviews {
+        width: 100%;
+    }
+    .reviewimg {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .hytcontainer {
+        display: none;
+    }
+    .hyttxtcontainer {
+        display: none;
+    }
+    .white-1 {
+        display: none;
+    }
+    .gray-1 {
+        display: none;
+    }
+    .text-kontaktcontainer1 {
+        display: none;
+    }
+    .kontakt {
+        display: none;
+    }
+    .containerkontakt {
+        float: right;
+    }
 }
 
