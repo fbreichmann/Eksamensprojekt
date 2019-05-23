@@ -9,9 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="../js/script.js" defer></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
 </head>
-
 
 
 <body>
@@ -51,32 +49,32 @@
    <div class="dropdown-container">
    <div class="dropdown">
    <p class="green-s">Antal personer:</p>
-   <div class="dropdown-input" onclick="openDropdown()" ><p class="green-xs">Vælg antal</p>
+   <div class="dropdown-input" onclick="openDropdown('drop')" ><p class="green-xs">Vælg antal</p>
    <div class="icon-down-white"><i class="fas fa-chevron-down"></i></div>
    </div>    
    
    <div id="drop" class="dropdown-content">
-    <label for="">Antal voksne:</label>
+    <label for="itm1">Antal voksne:</label>
      <input id="itm1" class="input" type="number" min="0" max="42" placeholder="0">
      <br>
      <br>
-     <label for="">Antal børn:</label>
+     <label for="itm2">Antal børn:</label>
      <input id="itm2" class="input" type="number" min="0" max="42" placeholder="0">
      </div>
   </div>
    
    <div class="dropdown">
    <p class="green-s">Antal hytter:</p>
-   <div class="dropdown-input" onclick="openDropdown2()" ><p class="green-xs">Vælg antal</p>
+   <div class="dropdown-input" onclick="openDropdown('drop2')" ><p class="green-xs">Vælg antal</p>
    <div class="icon-down-white"><i class="fas fa-chevron-down"></i></div>
    </div>    
    
    <div id="drop2" class="dropdown-content">
-    <label for="">Luksus hytte(r):</label>
+    <label for="itm3">Luksus hytte(r):</label>
      <input id="itm3" class="input" type="number" min="0" max="3" placeholder="0">
      <br>
      <br>
-     <label for="">Basis hytte(r):</label>
+     <label for="itm4">Basis hytte(r):</label>
      <input id="itm4" class="input" type="number" min="0" max="4" placeholder="0">
      </div>
     </div>
@@ -103,17 +101,17 @@
           <div class="label3-container">
      
          <div class="i-l">
-             <label for="itm5"><p class="green-s">Morgenmad (antal dage)</p></label>
+             <label for="itm5">Morgenmad (antal dage)</label><br>
              <input id="itm5" class="input" type="number" placeholder="0" min="0">
          </div>
      
          <div class="i-l">
-             <label for="itm6"><p class="green-s">Frokost (antal dage)</p></label>
+             <label for="itm6">Frokost (antal dage)</label><br>
              <input id="itm6" class="input" type="number" placeholder="0" min="0">
          </div>
      
          <div class="i-l">
-             <label for="itm7"><p class="green-s">Aftensmad (antal dage)</p></label>
+             <label for="itm7">Aftensmad (antal dage)</label><br>
              <input id="itm7" class="input" type="number" placeholder="0" min="0">
          </div>
      </div>
@@ -148,52 +146,52 @@
        <h3>HOS SPORTSPARKEN</h3>
        <div class="aktivitet-container">
        
-       <div class="img-wrapper" onclick="changeImg()">
+       <div class="img-wrapper" onclick="changeImg('click0',0,'img0')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/svoemmehal.jpg" alt="">
-       <button class="knap"><img id="click" src="../images/plus.svg" alt=""></button>
+       <img id="img0" class="img-pb" src="../images/svoemmehal.jpg" alt="">
+       <button class="knap"><img id="click0" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">SVØMMEHAL</p></div>
        </div>
            
-       <div class="img-wrapper" onclick="changeImg()">
+       <div class="img-wrapper" onclick="changeImg('click1',1,'img1')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/badeland%20(1).jpg" alt="">
-       <button class="knap"><img id="click" src="../images/plus.svg" alt=""></button>
+       <img id="img1" class="img-pb" src="../images/badeland%20(1).jpg" alt="">
+       <button class="knap"><img id="click1" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">BADELAND</p></div>
        </div>
             
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click2',2,'img2')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/sportshaller%20(1).jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img2" class="img-pb" src="../images/sportshaller%20(1).jpg" alt="">
+       <button class="knap"><img id="click2" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">SPORTSHALLER</p></div>
        </div>
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click3',3,'img3')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/springcenter.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img3" class="img-pb" src="../images/springcenter.jpg" alt="">
+       <button class="knap"><img id="click3" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">SPRINGCENTER</p></div>
        </div>
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click4',4,'img4')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/esport%20(1).jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img4" class="img-pb" src="../images/esport%20(1).jpg" alt="">
+       <button class="knap"><img id="click4" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">E-SPORT CENTER</p></div>
        </div>
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click5',5,'img5')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/flexbane.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img5" class="img-pb" src="../images/flexbane.jpg" alt="">
+       <button class="knap"><img id="click5" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">FLEXBANER</p></div>
        </div>
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click6',6,'img6')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/fitness.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img6" class="img-pb" src="../images/fitness.jpg" alt="">
+       <button class="knap"><img id="click6" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">Fitness center</p></div>
        </div>
        
@@ -201,65 +199,65 @@
        <h3>I OMRÅDET</h3>
        <div class="aktivitet-container">
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click7',7,'img7')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/tirpitz.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img7" class="img-pb" src="../images/tirpitz.jpg" alt="">
+       <button class="knap"><img id="click7" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">TIRPITZ MUSEET</p></div>
        </div>
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click8',8,'img8')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/tambourshave.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img8" class="img-pb" src="../images/tambourshave.jpg" alt="">
+       <button class="knap"><img id="click8" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">Tambours Have</p></div>
        </div>
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click9',9,'img9')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/zoo.png" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img9" class="img-pb" src="../images/zoo.png" alt="">
+       <button class="knap"><img id="click9" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">Besøg Blåvand Zoo</p></div>
        </div>
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click10',10,'img10')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/vardeby.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img10" class="img-pb" src="../images/vardeby.jpg" alt="">
+       <button class="knap"><img id="click10" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">Varde miniby</p></div>
        </div> 
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click11',11,'img11')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/fyr.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img11" class="img-pb" src="../images/fyr.jpg" alt="">
+       <button class="knap"><img id="click11" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">Blåvandshuk Fyr</p></div>
        </div>
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click12',12,'img12')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/frellomuseum.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img12" class="img-pb" src="../images/frellomuseum.jpg" alt="">
+       <button class="knap"><img id="click12" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">Museum Frello</p></div>
        </div> 
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click13',13,'img13')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/minigolf.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img13" class="img-pb" src="../images/minigolf.jpg" alt="">
+       <button class="knap"><img id="click13" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">minigolf</p></div>
        </div> 
        
-       <div class="img-wrapper">
+       <div class="img-wrapper" onclick="changeImg('click14',14,'img14')">
        <div class="pakke-pris"> <p class="white-s">00DKK</p></div>
-       <img class="img-pb" src="../images/frellomuseum.jpg" alt="">
-       <button class="knap"><img src="../images/plus.svg" alt=""></button>
+       <img id="img14" class="img-pb" src="../images/frellomuseum.jpg" alt="">
+       <button class="knap"><img id="click14" src="../images/plus.svg" alt=""></button>
        <div class="aktivitet-txt-green"><p class="white-s">Artillerimuseum</p></div>
        </div> 
         
        </div>
        <div class="center-btn">
-       <button onclick="openOversigt()" class="btn-green-b">FÅ PRISOVERSIGT</button>
+       <button onclick="openDropdown('pris')" class="btn-green-b">FÅ PRISOVERSIGT</button>
        </div>
    </div>
 <!--Prisoversigt  åbner kun når man trykker på knappen-->

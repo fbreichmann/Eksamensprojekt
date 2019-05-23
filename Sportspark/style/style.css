@@ -432,6 +432,7 @@ nav li a:hover{
     padding-top: 5%;
 }
 
+
 @media screen and (max-width: 1180px){
     .label3-container{
         width: 100%; 
@@ -468,11 +469,17 @@ nav li a:hover{
 }
 
 .i-l{
-    display: inline-block; 
+    display: block; 
+    float: left; 
     margin-right: 2%;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
 
+.i-l label{
+    font-size: 13px; 
+    color: #046143; 
+    font-weight: bold;
+}
 
 
 @media screen and (max-width: 800px){
@@ -527,14 +534,6 @@ nav li a:hover{
     }
 }
 
-.img-pb img{
-    width: 2%; 
-}
-
-.active-hover{
-    opacity: 0.3; 
-    transition: .5s ease; 
-}
 
 .img-wrapper:hover .img-pb{
     opacity: 0.3; 
@@ -557,6 +556,7 @@ nav li a:hover{
     outline: none; 
     border-style: none; 
 }
+
 
 .pakke-container{
     width: 100%; 
@@ -1030,7 +1030,7 @@ input[type=submit-kontakt]:hover {
     color: white;
 }
 
-#btnPrevWhite{
+.btnPrev{
   cursor: pointer;
   float: left;
   width: 10%;
@@ -1043,7 +1043,7 @@ input[type=submit-kontakt]:hover {
     background-color: transparent;
 }
 
-#btnNextWhite{
+.btnNext{
    cursor: pointer;
   float: right;
   width: 10%;
@@ -1056,6 +1056,13 @@ input[type=submit-kontakt]:hover {
     background-color: transparent;
     text-align: right;
 }
+
+.dot-container-hyt{
+    float: left;
+    text-align: center;
+    width: 80%;
+}
+
 /* media queries */
 @media screen and (max-width: 600px) {
     .map {
