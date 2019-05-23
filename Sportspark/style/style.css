@@ -1028,7 +1028,7 @@ input[type=submit-kontakt]:hover {
     color: white;
 }
 
-#btnPrev{
+.btnPrev{
   cursor: pointer;
   float: left;
   width: 10%;
@@ -1041,7 +1041,7 @@ input[type=submit-kontakt]:hover {
     background-color: transparent;
 }
 
-#btnNext{
+.btnNext{
    cursor: pointer;
   float: right;
   width: 10%;
