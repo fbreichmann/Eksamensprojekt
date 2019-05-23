@@ -1054,6 +1054,13 @@ input[type=submit-kontakt]:hover {
     background-color: transparent;
     text-align: right;
 }
+
+.dot-container-hyt{
+    float: left;
+    text-align: center;
+    width: 80%;
+}
+
 /* media queries */
 @media screen and (max-width: 600px) {
     .map {
