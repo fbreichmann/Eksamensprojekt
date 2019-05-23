@@ -331,6 +331,13 @@ nav li a:hover{
     height: 260px;
 }
 
+.pb-img-forside{
+    background-image: url(../images/forside.jpg);
+    height: 260px; 
+    background-size: 100%;
+    
+}
+
 /*Planlæg besøg side*/ 
 .dropdown-container{
     width: 50%; 
