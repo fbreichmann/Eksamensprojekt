@@ -9,7 +9,12 @@ function plusSlides(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("hytSlides");
-  var dots = document.getElementsByClassName("demo");
+  var dots = 
+  document.getElementsByClassName("hytSlides1");
+  var dots = 
+  document.getElementsByClassName("hytSlides2");
+  var dots = 
+  document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
