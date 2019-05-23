@@ -334,7 +334,7 @@ nav li a:hover{
 .pb-img-forside{
     background-image: url(../images/forside.jpg);
     height: 260px; 
-    background-size: 100%;
+    background-size: 1050px; ; 
     
 }
 
@@ -911,6 +911,26 @@ svg {
   to {opacity: 1}
 }
 
+.folder{
+    float: left; 
+    width: 100%; 
+}
+
+.folder-img{
+    width: 50%; 
+    float: left;
+}
+
+.folder-img img{
+    width: 100%; 
+}
+
+.folder-txt{
+    width: 50%; 
+    float:left;  
+    padding-top: 6%; 
+}
+
 /*reviews sektion*/
 
 .linje{
@@ -1214,6 +1234,15 @@ input[type=submit-kontakt]:hover {
     }
     .text-container-kontakt {
         width: 100%;
+    }
+    
+    .folder-img{
+        width: 100%; 
+    }
+    
+    .folder-txt{
+        width: 100%; 
+        margin-bottom: 10%;
     }
 }
 
