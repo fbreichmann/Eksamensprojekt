@@ -1067,7 +1067,7 @@ input[type=submit-kontakt]:hover {
 }
 
 /* media queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .map {
         height: 30vh;
         width: 100%;
@@ -1080,5 +1080,32 @@ input[type=submit-kontakt]:hover {
     svg {
         display: none;
     }
+    .search {
+        display: none;
+    }
+    .ssl {
+        width: 100px;
+        margin-left: -12.5px;
+    }
+    .some {
+        margin-top: 50px;
+
+    }
+    .some-icon {
+        width: 35px;
+    }
+    .adr {
+        margin-top: 10px;
+    }
+    .f-blue {
+        font-size: 12px;
+    }
+    .f-black {
+        font-size: 12px;
+    }
+    .link-blue {
+        font-size: 12px;
+    }
+    
 }
 
