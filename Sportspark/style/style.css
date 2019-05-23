@@ -534,14 +534,6 @@ nav li a:hover{
     }
 }
 
-.img-pb img{
-    width: 2%; 
-}
-
-.active-hover{
-    opacity: 0.3; 
-    transition: .5s ease; 
-}
 
 .img-wrapper:hover .img-pb{
     opacity: 0.3; 
@@ -564,6 +556,7 @@ nav li a:hover{
     outline: none; 
     border-style: none; 
 }
+
 
 .pakke-container{
     width: 100%; 

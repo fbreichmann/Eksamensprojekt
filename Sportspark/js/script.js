@@ -19,7 +19,6 @@ var classname = document.getElementsByClassName("input");
 for (var i = 0; i < classname.length; i++) {
     classname[i].addEventListener('change', show);
 }
-
 //variabler - arrays 
 let antal = [];
 antal[0] = "itm1"; 
@@ -52,13 +51,13 @@ output[6] = "output7";
 function show(){
     for( var x = 0; x < classname.length ; x++) {
         if(document.getElementById(antal[x]).value > 0) {
-            var a = document.getElementById(antal[x]).value + " " + tekst[x];
+    var a = document.getElementById(antal[x]).value + " " + tekst[x];
+    }
+    else{ 
+    var a = "";
         }
         
-        else{ 
-            var a = "";
-        }
-    document.getElementById(output[x]).innerHTML = a;
+        document.getElementById(output[x]).innerHTML = a;
     }    
 }
 
@@ -72,8 +71,8 @@ for ( var i = 0; i<knap.length;i++) {
 imgskift[i]='plus';     
 }
 
-function changeImg(i,b,c){
-    var image = document.getElementById(i);
+function changeImg(a,b,c){
+    var image = document.getElementById(a);
     if (imgskift[b]=='plus'){
         image.src='../images/check.svg';
         document.getElementById(c).style.opacity=0.3;  
