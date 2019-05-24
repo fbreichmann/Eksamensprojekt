@@ -41,6 +41,16 @@ h3{
     color: #046143; 
 }
 
+.kontakt {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 18px; 
+        text-transform: uppercase; 
+        font-weight: bold; 
+        margin-bottom: 1%;
+        color: #046143; 
+    }
+
+
 h4{
     font-size: 16px;
     color: #046143; 
@@ -49,6 +59,10 @@ h4{
 }
 
 .regu-b{
+    font-size: 16px;
+    font-weight: bold; 
+}
+.regu-b1 {
     font-size: 16px;
     font-weight: bold; 
 }
@@ -79,7 +93,6 @@ h4{
     color: #046143; 
     font-weight: bold;
 }
-
 
 .white-l{
     font-family: 'Exo 2', sans-serif;
@@ -185,7 +198,22 @@ h4{
     padding: 2% 15%;
     overflow: auto; 
 }
+.gray-1{
+    float: left;
+    background-color: #f7f7f7; 
+    width: 100%; 
+    padding: 2% 15%;
+    overflow: auto; 
+}
 
+.gray-2{
+    float: left;
+    background-color: #f7f7f7; 
+    width: 100%; 
+    padding: 2% 15%;
+    overflow: auto; 
+    margin-bottom: 5%; 
+}
 .white{
     float: left;
     background-color: white; 
@@ -193,7 +221,13 @@ h4{
     padding: 2% 15%;
     overflow: auto; 
 }
-
+.white-1 {
+        float: left;
+        background-color: white; 
+        width: 100%; 
+        padding: 2% 15%;
+        overflow: auto; 
+}
 
 /*nav med logo*/
 .logo{
@@ -213,6 +247,7 @@ h4{
     float: right; 
     margin-top: 28px;
     padding-right: 13.5%; 
+    background: white; 
 }
 
 
@@ -225,7 +260,6 @@ h4{
     padding: 7px; 
     outline: none; 
     cursor: auto;
-    
 }
 
 .search button{
@@ -271,6 +305,7 @@ nav li a{
     padding: 20px;
     font-size: 12px;
     text-transform: uppercase;
+    text-transform: uppercase;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -279,7 +314,7 @@ nav li a:hover{
 }
 
 .current{
-    background-color: #005635; 
+    background-color: #005635;
 }
 
 /*header*/
@@ -304,6 +339,13 @@ nav li a:hover{
 .pb-img-hytterne{
     background-image: url(../images/panoramabillede.jpg);
     height: 260px;
+}
+
+.pb-img-forside{
+    background-image: url(../images/forside.jpg);
+    height: 260px; 
+    background-size: 1050px; ; 
+    
 }
 
 /*Planlæg besøg side*/ 
@@ -534,14 +576,6 @@ nav li a:hover{
     }
 }
 
-.img-pb img{
-    width: 2%; 
-}
-
-.active-hover{
-    opacity: 0.3; 
-    transition: .5s ease; 
-}
 
 .img-wrapper:hover .img-pb{
     opacity: 0.3; 
@@ -564,6 +598,7 @@ nav li a:hover{
     outline: none; 
     border-style: none; 
 }
+
 
 .pakke-container{
     width: 100%; 
@@ -729,6 +764,8 @@ nav li a:hover{
 /* kort side */
 #Group_19:hover {
     cursor: pointer;
+    stroke: black;
+    stroke-width: 3px;
 }
 #sideBar {
     height: 900px;
@@ -884,6 +921,27 @@ svg {
   to {opacity: 1}
 }
 
+.folder{
+    float: left; 
+    width: 100%;
+}
+
+.folder-img{
+    width: 50%; 
+    float: left;
+}
+
+.folder-img img{
+    width: 100%; 
+}
+
+.folder-txt{
+    width: 50%; 
+    float:left;  
+    padding-top: 5%; 
+}
+
+
 /*reviews sektion*/
 
 .linje{
@@ -894,6 +952,13 @@ svg {
 }
 
 .reviews{
+    width: 28.3%;
+    float: left;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-bottom: 30px;
+}
+.reviews1{
     width: 28.3%;
     float: left;
     margin-top: 20px;
@@ -954,7 +1019,7 @@ footer{
 }
 
 /*KONTAKT SIDEN*/
-input[type=text-kontakt], select, textarea {
+.containerkontakt input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 2px solid #ccc;
@@ -992,9 +1057,21 @@ input[type=submit-kontakt]:hover {
     float: left; 
     margin-right: 10%;
 }
+.text-kontaktcontainer1{
+    width: 40%; 
+    padding-bottom: 2%; 
+    float: left; 
+    margin-right: 10%;
+}
 
-/* HYTTER */
+.text-kontaktcontainer1 a{
+    color: #046143;
+    font-size: 15px;
+    text-decoration: underline;
+}
 
+
+/* HYTTER SIDEN */
 .btn-hyt{
     float: right;
     width: 100%;
@@ -1020,6 +1097,7 @@ input[type=submit-kontakt]:hover {
     padding-right: 3%;
 }
 
+
 .slider-area{
     width: 90%;
     background-color: #046143;
@@ -1030,12 +1108,7 @@ input[type=submit-kontakt]:hover {
     border-bottom-right-radius: 16px;
 }
 
-.xofx{
-    margin: 15px;
-    color: white;
-}
-
-#btnPrevWhite{
+.btnPrev{
   cursor: pointer;
   float: left;
   width: 10%;
@@ -1048,7 +1121,7 @@ input[type=submit-kontakt]:hover {
     background-color: transparent;
 }
 
-#btnNextWhite{
+.btnNext{
    cursor: pointer;
   float: right;
   width: 10%;
@@ -1061,15 +1134,136 @@ input[type=submit-kontakt]:hover {
     background-color: transparent;
     text-align: right;
 }
+
+.dot-container-hyt{
+    float: left;
+    text-align: center;
+    width: 80%;
+}
+
+.hyt-txt{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.mobileimg {
+    display: none;
+}
+
 /* media queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .map {
         height: 30vh;
         width: 100%;
     }
+    .mobileimg {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
     svg {
-        width: 50%;
-        height: 50%;
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .ssl {
+        width: 100px;
+        margin-left: -12.5px;
+    }
+    .some {
+        margin-top: 50px;
+
+    }
+    .some-icon {
+        width: 35px;
+    }
+    .adr {
+        margin-top: 10px;
+    }
+    .f-blue {
+        font-size: 12px;
+    }
+    .f-black {
+        font-size: 12px;
+    }
+    .link-blue {
+        font-size: 12px;
+    }
+    h1 {
+        padding-top: 80px;
+    }
+    h2 {
+        font-size: 12px;
+        width: 200px;
+    }
+    h3 {
+        margin-top: 10px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .regu-b1 {
+        display: none;
+    }
+    .cardfptxtcontainer {
+        width: 100%;
+    }
+    .btncontainer {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+    .regu-m {
+        font-size: 10px;
+    }
+    .gray-forside {
+        display: none;
+    }
+    .reviews1 {
+        display: none;
+    }
+    .reviews {
+        width: 100%;
+    }
+    .reviewimg {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .hytcontainer {
+        display: none;
+    }
+    .hyttxtcontainer {
+        display: none;
+    }
+    .white-1 {
+        display: none;
+    }
+    .gray-1 {
+        display: none;
+    }
+    .gray-2 {
+        display: none;
+    }
+    .text-kontaktcontainer1 {
+        display: none;
+    }
+    .kontakt {
+        display: none;
+    }
+    .containerkontakt {
+        float: right;
+    }
+    .text-container-kontakt {
+        width: 100%;
+    }
+    
+    .folder-img{
+        width: 100%; 
+    }
+    
+    .folder-txt{
+        width: 100%; 
+        margin-bottom: 10%;
     }
 }
 
