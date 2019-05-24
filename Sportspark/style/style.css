@@ -205,15 +205,6 @@ h4{
     padding: 2% 15%;
     overflow: auto; 
 }
-
-.gray-2{
-    float: left;
-    background-color: #f7f7f7; 
-    width: 100%; 
-    padding: 2% 15%;
-    overflow: auto; 
-    margin-bottom: 5%; 
-}
 .white{
     float: left;
     background-color: white; 
@@ -247,7 +238,6 @@ h4{
     float: right; 
     margin-top: 28px;
     padding-right: 13.5%; 
-    background: white; 
 }
 
 
@@ -923,7 +913,7 @@ svg {
 
 .folder{
     float: left; 
-    width: 100%;
+    width: 100%; 
 }
 
 .folder-img{
@@ -938,9 +928,8 @@ svg {
 .folder-txt{
     width: 50%; 
     float:left;  
-    padding-top: 5%; 
+    padding-top: 6%; 
 }
-
 
 /*reviews sektion*/
 
@@ -1063,13 +1052,6 @@ input[type=submit-kontakt]:hover {
     float: left; 
     margin-right: 10%;
 }
-
-.text-kontaktcontainer1 a{
-    color: #046143;
-    font-size: 15px;
-    text-decoration: underline;
-}
-
 
 /* HYTTER SIDEN */
 .btn-hyt{
@@ -1239,9 +1221,6 @@ input[type=submit-kontakt]:hover {
         display: none;
     }
     .gray-1 {
-        display: none;
-    }
-    .gray-2 {
         display: none;
     }
     .text-kontaktcontainer1 {
