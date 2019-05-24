@@ -205,6 +205,15 @@ h4{
     padding: 2% 15%;
     overflow: auto; 
 }
+.gray-1-1{
+    float: left;
+    background-color: #f7f7f7; 
+    width: 100%; 
+    padding: 2% 15%;
+    overflow: auto;
+    margin-bottom: 5%; 
+}
+
 .white{
     float: left;
     background-color: white; 
@@ -931,6 +940,15 @@ svg {
     padding-top: 6%; 
 }
 
+.gray-2{
+    float: left;
+    background-color: #f7f7f7; 
+    width: 100%; 
+    padding: 2% 15%;
+    overflow: auto;
+    margin-bottom: 5%; 
+}
+
 /*reviews sektion*/
 
 .linje{
@@ -1070,10 +1088,10 @@ input[type=submit-kontakt]:hover {
     width: 90%;
     margin-right: 10%;
     margin-bottom: 0;
+    border-radius: 10px 10px 0px 0px; 
 }
 
 .hyttxtcontainer{
-    margin-top: 6%;
     float: left;
     width: 50%;
     padding-right: 3%;
