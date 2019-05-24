@@ -1,8 +1,8 @@
 
 //Javascript til dropdown
-function openDropdown(i) {
+function openDropdown() {
 
-let x = document.getElementById(i);
+var x = document.getElementById("drop");
     
   if (x.style.display === "block") {
     x.style.display = "none";
@@ -11,13 +11,36 @@ let x = document.getElementById(i);
   }
 }
 
+
+function openDropdown2() {
+  var x = document.getElementById("drop2");
+    
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function openOversigt() {
+  var x = document.getElementById("pris");
+    
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
 //Javascript til prisoversigt 
 
 //event listener. 
-let classname = document.getElementsByClassName("input");
-for (let i = 0; i < classname.length; i++) {
+var classname = document.getElementsByClassName("input");
+for (var i = 0; i < classname.length; i++) {
     classname[i].addEventListener('change', show);
 }
+
 //variabler - arrays 
 let antal = [];
 antal[0] = "itm1"; 
@@ -48,39 +71,46 @@ output[6] = "output7";
 
 //funktion son får teksten til at vise sig
 function show(){
-    for( let x = 0; x < classname.length ; x++) {
+    for( var x = 0; x < classname.length ; x++) {
         if(document.getElementById(antal[x]).value > 0) {
-    var a = document.getElementById(antal[x]).value + " " + tekst[x];
-    }
-    else{ 
-    var a = "";
+            var a = document.getElementById(antal[x]).value + " " + tekst[x];
         }
         
-        document.getElementById(output[x]).innerHTML = a;
+        else{ 
+            var a = "";
+        }
+    document.getElementById(output[x]).innerHTML = a;
     }    
 }
 
 
-//Javascript til billedskifte og baggrunds farve skift
+//Javascript til billedskifte
+var imgskift = 'check'; 
 
-let knap = document.getElementsByClassName("knap");
-let imgskift = new Array(knap.length);
-
-for ( let i = 0; i<knap.length;i++) {
-imgskift[i]='plus';     
-}
-
-function changeImg(a,b,c){
-    let image = document.getElementById(a);
-    if (imgskift[b]=='plus'){
-        image.src='../images/check.svg';
-        document.getElementById(c).style.opacity=0.3;  
-        imgskift[b]='check'; 
+function changeImg(){
+    var image = document.getElementById('click'); 
+    if (imgskift=='plus'){
+        image.src='../images/plus.svg'; 
+        imgskift='check'; 
     }
     else{
-        image.src='../images/plus.svg';
-        document.getElementById(c).style.opacity=1;
-        imgskift[b]='plus'; 
+        image.src='../images/check.svg'; 
+        imgskift='plus'; 
     }
 }
 
+var active = document.querySelector(".img-pb");
+
+active.addEventListener("click", function(e) {
+   this.classList.toggle("active-hover"); 
+});
+
+
+
+
+
+
+
+
+
+   
